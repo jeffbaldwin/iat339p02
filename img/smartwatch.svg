@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="460px" height="1980px" viewBox="0 0 460 1980" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>Smart Watch</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="128" y="0" width="180" height="180" rx="15"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="180" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="128" y="254" width="180" height="180" rx="15"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="180" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="0" y="0" width="180" height="180" rx="15"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="180" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="0" y="0" width="180" height="180" rx="15"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="180" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="0" y="0" width="180" height="180" rx="15"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="180" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="0" y="0" width="180" height="180" rx="15"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="180" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <rect id="path-13" x="0" y="0" width="180" height="180" rx="15"></rect>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="180" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <rect id="path-15" x="0" y="0" width="180" height="180" rx="15"></rect>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="180" fill="white">
+            <use xlink:href="#path-15"></use>
+        </mask>
+        <rect id="path-17" x="0" y="0.637731537" width="157" height="25.7245369"></rect>
+        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="157" height="25.7245369" fill="white">
+            <use xlink:href="#path-17"></use>
+        </mask>
+        <rect id="path-19" x="128" y="778" width="180" height="337"></rect>
+        <mask id="mask-20" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180" height="337" fill="white">
+            <use xlink:href="#path-19"></use>
+        </mask>
+        <rect id="path-21" x="0" y="0" width="157" height="25.7245369"></rect>
+        <mask id="mask-22" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="157" height="25.7245369" fill="white">
+            <use xlink:href="#path-21"></use>
+        </mask>
+        <rect id="path-23" x="0" y="0" width="157" height="25.7245369"></rect>
+        <mask id="mask-24" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="157" height="25.7245369" fill="white">
+            <use xlink:href="#path-23"></use>
+        </mask>
+        <rect id="path-25" x="0" y="0" width="157" height="25.7245369"></rect>
+        <mask id="mask-26" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="157" height="25.7245369" fill="white">
+            <use xlink:href="#path-25"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Smart-Watch">
+            <use id="Rectangle-3" stroke="#979797" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+            <use id="Rectangle-3-Copy" stroke="#979797" mask="url(#mask-4)" stroke-width="2" xlink:href="#path-3"></use>
+            <text id="Intro-Screen" font-family="CircularStd-Bold, Circular Std" font-size="15" font-weight="bold" letter-spacing="0.180000007" fill="#4A4A4A">
+                <tspan x="324" y="15">Intro Screen</tspan>
+            </text>
+            <text id="Menu/-Navigation-Scr" font-family="CircularStd-Bold, Circular Std" font-size="15" font-weight="bold" letter-spacing="0.180000007" fill="#4A4A4A">
+                <tspan x="324" y="269">Menu/</tspan>
+                <tspan x="324" y="288">Navigation</tspan>
+                <tspan x="324" y="307">Screen</tspan>
+            </text>
+            <text id="List-of-Services-Scr" font-family="CircularStd-Bold, Circular Std" font-size="15" font-weight="bold" letter-spacing="0.180000007" fill="#4A4A4A">
+                <tspan x="324" y="521">List of </tspan>
+                <tspan x="324" y="540">Services</tspan>
+                <tspan x="324" y="559">Screen</tspan>
+            </text>
+            <text id="Details-of-Service-S" font-family="CircularStd-Bold, Circular Std" font-size="15" font-weight="bold" letter-spacing="0.180000007" fill="#4A4A4A">
+                <tspan x="324" y="773">Details of </tspan>
+                <tspan x="324" y="792">Service</tspan>
+                <tspan x="324" y="811">Screen</tspan>
+            </text>
+            <text id="Series-of-Input-Scre" font-family="CircularStd-Bold, Circular Std" font-size="15" font-weight="bold" letter-spacing="0.180000007" fill="#4A4A4A">
+                <tspan x="324" y="1202">Series of</tspan>
+                <tspan x="324" y="1221">Input</tspan>
+                <tspan x="324" y="1240">Screens</tspan>
+            </text>
+            <text id="Completion-Screens" font-family="CircularStd-Bold, Circular Std" font-size="15" font-weight="bold" letter-spacing="0.180000007" fill="#4A4A4A">
+                <tspan x="324" y="1775">Completion</tspan>
+                <tspan x="324" y="1794">Screens</tspan>
+            </text>
+            <text id="TAP-TO-GO-BACK-TO-ME" font-family="CircularStd-MediumItalic, Circular Std" font-size="10" font-style="italic" font-weight="500" letter-spacing="0.120000005" fill="#4A4A4A">
+                <tspan x="38" y="482">TAP TO GO</tspan>
+                <tspan x="38" y="495">BACK TO </tspan>
+                <tspan x="38" y="508">MENU SCREEN</tspan>
+            </text>
+            <text id="TAP-ON-INPUT-BOX-TO" font-family="CircularStd-MediumItalic, Circular Std" font-size="10" font-style="italic" font-weight="500" letter-spacing="0.120000005" fill="#4A4A4A">
+                <tspan x="59" y="1285">TAP ON</tspan>
+                <tspan x="59" y="1298">INPUT BOX</tspan>
+                <tspan x="59" y="1311">TO TYPE</tspan>
+            </text>
+            <text id="USERS-CAN-SWIPE-THRO" font-family="CircularStd-MediumItalic, Circular Std" font-size="10" font-style="italic" font-weight="500" letter-spacing="0.120000005" fill="#4A4A4A">
+                <tspan x="324" y="652">USERS CAN</tspan>
+                <tspan x="324" y="665">SWIPE THROUGH</tspan>
+                <tspan x="324" y="678">LIST TO BROWSE</tspan>
+            </text>
+            <text id="USERS-LEARN-A-BRIEF" font-family="CircularStd-MediumItalic, Circular Std" font-size="10" font-style="italic" font-weight="500" letter-spacing="0.120000005" fill="#4A4A4A">
+                <tspan x="324" y="890">USERS LEARN</tspan>
+                <tspan x="324" y="903">A BRIEF</tspan>
+                <tspan x="324" y="916">EXPLANATION </tspan>
+                <tspan x="324" y="929">OF SERVICE</tspan>
+            </text>
+            <text id="USERS-ENTER-ONLY-THE" font-family="CircularStd-MediumItalic, Circular Std" font-size="10" font-style="italic" font-weight="500" letter-spacing="0.120000005" fill="#4A4A4A">
+                <tspan x="324" y="1325">USERS ENTER</tspan>
+                <tspan x="324" y="1338">ONLY THEIR</tspan>
+                <tspan x="324" y="1351">NAME AND PHONE</tspan>
+                <tspan x="324" y="1364">NUMBER</tspan>
+                <tspan x="324" y="1377">FOR COMPANY</tspan>
+                <tspan x="324" y="1390">TO CONTACT THEM</tspan>
+                <tspan x="324" y="1403">REGARDING</tspan>
+                <tspan x="324" y="1416">SERVICE</tspan>
+            </text>
+            <text id="since-Smartwatches-a" font-family="CircularStd-MediumItalic, Circular Std" font-size="10" font-style="italic" font-weight="500" letter-spacing="0.120000005" fill="#4A4A4A">
+                <tspan x="324" y="1453">since Smartwatches</tspan>
+                <tspan x="324" y="1466">are harder to input</tspan>
+                <tspan x="324" y="1479">user details, the default</tspan>
+                <tspan x="324" y="1492">becomes direct contact</tspan>
+                <tspan x="324" y="1505">from the </tspan>
+                <tspan x="324" y="1518">organization</tspan>
+            </text>
+            <text id="TAP-TO-CONTINUE-AND" font-family="CircularStd-MediumItalic, Circular Std" font-size="10" font-style="italic" font-weight="500" letter-spacing="0.120000005" fill="#4A4A4A">
+                <tspan x="324" y="1060">TAP TO CONTINUE</tspan>
+                <tspan x="324" y="1073">AND REQUEST</tspan>
+                <tspan x="324" y="1086">FOR SERVICE</tspan>
+            </text>
+            <g id="Group-Copy-5" transform="translate(172.000000, 44.000000)" stroke="#B1F0DA" stroke-width="3" fill="#B1F0DA">
+                <circle id="Oval" cx="46" cy="46" r="46"></circle>
+            </g>
+            <text id="TAP-ON-LOGO-TO-CONTI" font-family="CircularStd-MediumItalic, Circular Std" font-size="15" font-style="italic" font-weight="500" letter-spacing="0.180000007" fill="#4A4A4A">
+                <tspan x="168.035" y="214">TAP ON LOGO</tspan>
+                <tspan x="167.075" y="233">TO CONTINUE</tspan>
+            </text>
+            <text id="TAP-ON-SERVICES" font-family="CircularStd-MediumItalic, Circular Std" font-size="15" font-style="italic" font-weight="500" letter-spacing="0.180000007" fill="#4A4A4A">
+                <tspan x="191.1125" y="466">TAP ON</tspan>
+                <tspan x="183.0725" y="485">SERVICES</tspan>
+            </text>
+            <text id="SELECT-A-SERVICE" font-family="CircularStd-MediumItalic, Circular Std" font-size="15" font-style="italic" font-weight="500" letter-spacing="0.180000007" fill="#4A4A4A">
+                <tspan x="184.2325" y="718">SELECT A</tspan>
+                <tspan x="188.0125" y="737">SERVICE</tspan>
+            </text>
+            <text id="REQUEST-A-SERVICE" font-family="CircularStd-MediumItalic, Circular Std" font-size="15" font-style="italic" font-weight="500" letter-spacing="0.180000007" fill="#4A4A4A">
+                <tspan x="178.165" y="1147">REQUEST A</tspan>
+                <tspan x="188.0125" y="1166">SERVICE</tspan>
+            </text>
+            <path d="M324.5,181.5 L324.5,239.637767" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path id="Line-decoration-1" d="M321.5,228.837767 L324.5,239.637767 L327.5,228.837767" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M110.5,1354.5 L110.5,1864.38332" id="Line-Copy" stroke="#979797" stroke-linecap="square"></path>
+            <path id="Line-Copy-decoration-1" d="M107.5,1853.58332 L110.5,1864.38332 L113.5,1853.58332" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M108.5,467.308615 L108.5,401.637767" id="Line-Copy-2" stroke="#979797" stroke-linecap="square"></path>
+            <path id="Line-Copy-2-decoration-1" d="M111.5,412.437767 L108.5,401.637767 L105.5,412.437767" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M96.4185032,518.308615 L122.500702,518.308615" id="Line-Copy-3" stroke="#979797" stroke-linecap="square"></path>
+            <path id="Line-Copy-3-decoration-1" d="M111.700702,521.308615 L122.500702,518.308615 L111.700702,515.308615" stroke="#979797" stroke-linecap="square"></path>
+            <text id="SERVICES" font-family="CircularStd-Bold, Circular Std" font-size="15" font-weight="bold" letter-spacing="0.180000007" fill="#FF5B41">
+                <tspan x="182.1925" y="293">SERVICES</tspan>
+            </text>
+            <text id="Face-to-Face" font-family="CircularStd-Bold, Circular Std" font-size="15" font-weight="bold" letter-spacing="0.180000007" fill="#FF5B41">
+                <tspan x="146" y="556">Face to Face</tspan>
+            </text>
+            <text id="Apology" font-family="CircularStd-Book, Circular Std" font-size="10" font-weight="300" letter-spacing="0.120000005" fill="#FF5B41">
+                <tspan x="146" y="570">Apology</tspan>
+            </text>
+            <text id="Apology-Copy" font-family="CircularStd-Book, Circular Std" font-size="10" font-weight="300" letter-spacing="0.120000005" fill="#4A4A4A">
+                <tspan x="146" y="626">Apology</tspan>
+            </text>
+            <text id="Apology-Copy-2" font-family="CircularStd-Book, Circular Std" font-size="10" font-weight="300" letter-spacing="0.120000005" fill="#4A4A4A">
+                <tspan x="146" y="683">Apology</tspan>
+            </text>
+            <text id="YOUR-PROFILE" font-family="CircularStd-Bold, Circular Std" font-size="15" font-weight="bold" letter-spacing="0.180000007" fill="#4A4A4A">
+                <tspan x="164.3075" y="349">YOUR PROFILE</tspan>
+            </text>
+            <text id="Email-/-Phone" font-family="CircularStd-Bold, Circular Std" font-size="15" font-weight="bold" letter-spacing="0.180000007" fill="#4A4A4A">
+                <tspan x="146" y="612">Email / Phone</tspan>
+            </text>
+            <text id="ABOUT/CONTACT" font-family="CircularStd-Bold, Circular Std" font-size="15" font-weight="bold" letter-spacing="0.180000007" fill="#4A4A4A">
+                <tspan x="152.2425" y="406">ABOUT/CONTACT</tspan>
+            </text>
+            <text id="Gift" font-family="CircularStd-Bold, Circular Std" font-size="15" font-weight="bold" letter-spacing="0.180000007" fill="#4A4A4A">
+                <tspan x="146" y="669">Gift</tspan>
+            </text>
+            <path d="M128.5,317.5 L307.5,317.5" id="Line-Copy-4" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M128.5,580.5 L307.5,580.5" id="Line-Copy-7" stroke="#979797" stroke-linecap="square"></path>
+            <g id="Group-2" transform="translate(128.000000, 506.000000)">
+                <use id="Rectangle-3-Copy-2" stroke="#979797" mask="url(#mask-6)" stroke-width="2" xlink:href="#path-5"></use>
+                <rect id="Rectangle-4-Copy" fill="#B1F0DA" x="6" y="5" width="48" height="13"></rect>
+                <text id="&lt;-menu" font-family="CircularStd-MediumItalic, Circular Std" font-size="10" font-style="italic" font-weight="500" letter-spacing="0.120000005" fill="#4A4A4A">
+                    <tspan x="12.355" y="14">&lt; menu</tspan>
+                </text>
+                <text id="02:30" font-family="CircularStd-MediumItalic, Circular Std" font-size="10" font-style="italic" font-weight="500" letter-spacing="0.120000005" fill="#4A4A4A">
+                    <tspan x="140.215" y="14">02:30</tspan>
+                </text>
+                <path d="M0.5,20.5 L179.5,20.5" id="Line-Copy-6" stroke="#979797" stroke-linecap="square"></path>
+            </g>
+            <g id="Group-2-Copy" transform="translate(128.000000, 758.000000)">
+                <use id="Rectangle-3-Copy-2" stroke="#979797" mask="url(#mask-8)" stroke-width="2" xlink:href="#path-7"></use>
+                <rect id="Rectangle-4-Copy" fill="#B1F0DA" x="6" y="5" width="52" height="13"></rect>
+                <text id="&lt;-services" font-family="CircularStd-MediumItalic, Circular Std" font-size="10" font-style="italic" font-weight="500" letter-spacing="0.120000005" fill="#4A4A4A">
+                    <tspan x="12" y="14">&lt; services</tspan>
+                </text>
+                <text id="02:30" font-family="CircularStd-MediumItalic, Circular Std" font-size="10" font-style="italic" font-weight="500" letter-spacing="0.120000005" fill="#4A4A4A">
+                    <tspan x="140.215" y="14">02:30</tspan>
+                </text>
+                <path d="M0.5,20.5 L179.5,20.5" id="Line-Copy-6" stroke="#979797" stroke-linecap="square"></path>
+            </g>
+            <g id="Group-2-Copy-2" transform="translate(128.000000, 1187.000000)">
+                <use id="Rectangle-3-Copy-2" stroke="#979797" mask="url(#mask-10)" stroke-width="2" xlink:href="#path-9"></use>
+                <rect id="Rectangle-4-Copy" fill="#B1F0DA" x="6" y="5" width="52" height="13"></rect>
+                <text id="&lt;-back" font-family="CircularStd-MediumItalic, Circular Std" font-size="10" font-style="italic" font-weight="500" letter-spacing="0.120000005" fill="#4A4A4A">
+                    <tspan x="12" y="14">&lt;  back</tspan>
+                </text>
+                <text id="02:30" font-family="CircularStd-MediumItalic, Circular Std" font-size="10" font-style="italic" font-weight="500" letter-spacing="0.120000005" fill="#4A4A4A">
+                    <tspan x="140.215" y="14">02:30</tspan>
+                </text>
+                <path d="M0.5,20.5 L179.5,20.5" id="Line-Copy-6" stroke="#979797" stroke-linecap="square"></path>
+            </g>
+            <g id="Group-2-Copy-3" transform="translate(128.000000, 1378.000000)">
+                <use id="Rectangle-3-Copy-2" stroke="#979797" mask="url(#mask-12)" stroke-width="2" xlink:href="#path-11"></use>
+                <rect id="Rectangle-4-Copy" fill="#B1F0DA" x="6" y="5" width="52" height="13"></rect>
+                <text id="&lt;-back" font-family="CircularStd-MediumItalic, Circular Std" font-size="10" font-style="italic" font-weight="500" letter-spacing="0.120000005" fill="#4A4A4A">
+                    <tspan x="12" y="14">&lt;  back</tspan>
+                </text>
+                <text id="02:30" font-family="CircularStd-MediumItalic, Circular Std" font-size="10" font-style="italic" font-weight="500" letter-spacing="0.120000005" fill="#4A4A4A">
+                    <tspan x="140.215" y="14">02:30</tspan>
+                </text>
+                <path d="M0.5,20.5 L179.5,20.5" id="Line-Copy-6" stroke="#979797" stroke-linecap="square"></path>
+            </g>
+            <g id="Group-2-Copy-4" transform="translate(128.000000, 1569.000000)">
+                <use id="Rectangle-3-Copy-2" stroke="#979797" mask="url(#mask-14)" stroke-width="2" xlink:href="#path-13"></use>
+                <rect id="Rectangle-4-Copy" fill="#B1F0DA" x="6" y="5" width="52" height="13"></rect>
+                <text id="&lt;-back" font-family="CircularStd-MediumItalic, Circular Std" font-size="10" font-style="italic" font-weight="500" letter-spacing="0.120000005" fill="#4A4A4A">
+                    <tspan x="12" y="14">&lt;  back</tspan>
+                </text>
+                <text id="02:30" font-family="CircularStd-MediumItalic, Circular Std" font-size="10" font-style="italic" font-weight="500" letter-spacing="0.120000005" fill="#4A4A4A">
+                    <tspan x="140.215" y="14">02:30</tspan>
+                </text>
+                <path d="M0.5,20.5 L179.5,20.5" id="Line-Copy-6" stroke="#979797" stroke-linecap="square"></path>
+            </g>
+            <g id="Group-2-Copy-5" transform="translate(128.000000, 1760.000000)">
+                <use id="Rectangle-3-Copy-2" stroke="#979797" mask="url(#mask-16)" stroke-width="2" xlink:href="#path-15"></use>
+                <rect id="Rectangle-4-Copy" fill="#B1F0DA" x="6" y="5" width="52" height="13"></rect>
+                <text id="&lt;-back" font-family="CircularStd-MediumItalic, Circular Std" font-size="10" font-style="italic" font-weight="500" letter-spacing="0.120000005" fill="#4A4A4A">
+                    <tspan x="12" y="14">&lt;  back</tspan>
+                </text>
+                <text id="02:30" font-family="CircularStd-MediumItalic, Circular Std" font-size="10" font-style="italic" font-weight="500" letter-spacing="0.120000005" fill="#4A4A4A">
+                    <tspan x="140.215" y="14">02:30</tspan>
+                </text>
+                <path d="M0.5,20.5 L179.5,20.5" id="Line-Copy-6" stroke="#979797" stroke-linecap="square"></path>
+            </g>
+            <text id="Apology" font-family="CircularStd-Book, Circular Std" font-size="10" font-weight="300" letter-spacing="0.120000005" fill="#FF5B41">
+                <tspan x="199" y="821">Apology</tspan>
+            </text>
+            <text id="Face-to-Face" font-family="CircularStd-Bold, Circular Std" font-size="15" font-weight="bold" letter-spacing="0.180000007" fill="#FF5B41">
+                <tspan x="174" y="807">Face to Face</tspan>
+            </text>
+            <text id="Your-First-Name" font-family="CircularStd-Bold, Circular Std" font-size="15" font-weight="bold" letter-spacing="0.180000007" fill="#FF5B41">
+                <tspan x="141" y="1255">Your First Name</tspan>
+            </text>
+            <text id="Your-Last-Name" font-family="CircularStd-Bold, Circular Std" font-size="15" font-weight="bold" letter-spacing="0.180000007" fill="#FF5B41">
+                <tspan x="141" y="1446">Your Last Name</tspan>
+            </text>
+            <text id="Your-Phone-Number" font-family="CircularStd-Bold, Circular Std" font-size="15" font-weight="bold" letter-spacing="0.180000007" fill="#FF5B41">
+                <tspan x="141" y="1637">Your Phone Number</tspan>
+            </text>
+            <text id="We-Will-Contact-You" font-family="CircularStd-Bold, Circular Std" font-size="15" font-weight="bold" letter-spacing="0.0799999982" fill="#4A4A4A">
+                <tspan x="148" y="1813">We Will Contact </tspan>
+                <tspan x="148" y="1832">You Shortly to </tspan>
+                <tspan x="148" y="1851">Discuss Details of </tspan>
+                <tspan x="148" y="1870">Servic</tspan>
+                <tspan x="192.46" y="1870">e</tspan>
+            </text>
+            <g id="Group-3" transform="translate(140.000000, 835.000000)">
+                <rect id="Rectangle-6-Copy" fill="#B1F0DA" x="0" y="0.637731537" width="146" height="25.7245369"></rect>
+                <use id="Rectangle-6" stroke="#979797" mask="url(#mask-18)" stroke-width="2" xlink:href="#path-17"></use>
+                <text id="98%-SUCCESSFUL" font-family="CircularStd-Bold, Circular Std" font-size="8" font-weight="bold" letter-spacing="0.400000006" fill="#393531">
+                    <tspan x="42" y="16.5">98% SUCCESSFU</tspan>
+                    <tspan x="112.032" y="16.5">L</tspan>
+                </text>
+            </g>
+            <path d="M128.5,373.5 L307.5,373.5" id="Line-Copy-5" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M128.5,636.5 L307.5,636.5" id="Line-Copy-8" stroke="#979797" stroke-linecap="square"></path>
+            <g id="Group" opacity="0.55" transform="translate(261.000000, 136.000000)">
+                <circle id="Oval-3" fill="#B1F0DA" cx="17" cy="17" r="10"></circle>
+                <circle id="Oval-3-Copy" stroke="#B1F0DA" stroke-width="3" cx="17" cy="17" r="16.5"></circle>
+            </g>
+            <g id="Group-Copy" opacity="0.55" transform="translate(244.000000, 272.000000)">
+                <circle id="Oval-3" fill="#B1F0DA" cx="17" cy="17" r="10"></circle>
+                <circle id="Oval-3-Copy" stroke="#B1F0DA" stroke-width="3" cx="17" cy="17" r="16.5"></circle>
+            </g>
+            <g id="Group-Copy-2" opacity="0.55" transform="translate(227.000000, 535.000000)">
+                <circle id="Oval-3" fill="#B1F0DA" cx="17" cy="17" r="10"></circle>
+                <circle id="Oval-3-Copy" stroke="#B1F0DA" stroke-width="3" cx="17" cy="17" r="16.5"></circle>
+            </g>
+            <rect id="Rectangle-4" fill="#B1F0DA" x="298" y="530" width="6" height="40" rx="3"></rect>
+            <rect id="Rectangle-4-Copy-2" fill="#B1F0DA" x="298" y="784" width="6" height="40" rx="3"></rect>
+            <use id="Rectangle-5" stroke="#979797" mask="url(#mask-20)" stroke-width="2" xlink:href="#path-19"></use>
+            <text id="Lorem-ipsum-dolor-si" font-family="CircularStd-Book, Circular Std" font-size="10" font-weight="300" letter-spacing="0.0199999996" fill="#4A4A4A">
+                <tspan x="141" y="882">Lorem ipsum dolor sit amet, </tspan>
+                <tspan x="141" y="895">consectetur adipiscing elit. </tspan>
+                <tspan x="141" y="908">Vivamus risus mauris, maximus </tspan>
+                <tspan x="141" y="921">vel velit eget, luctus auctor quam. </tspan>
+                <tspan x="141" y="934">Aenean id interdum augue, </tspan>
+                <tspan x="141" y="947">suscipit blandit elit. Vestibulum </tspan>
+                <tspan x="141" y="960">tincidunt consequat libero, vitae </tspan>
+                <tspan x="141" y="973">aliquam nunc lobortis eget. Cras </tspan>
+                <tspan x="141" y="986">faucibus porttitor sapien, non </tspan>
+                <tspan x="141" y="999">luctus odio posuere a. Sed </tspan>
+                <tspan x="141" y="1012">vestibulum ornare odio, id sodales </tspan>
+                <tspan x="141" y="1025">risus mattis vitae</tspan>
+                <tspan x="216.91" y="1025">.</tspan>
+            </text>
+            <g id="Group-3" transform="translate(140.000000, 1269.000000)" stroke="#979797" stroke-width="2">
+                <use id="Rectangle-6" mask="url(#mask-22)" xlink:href="#path-21"></use>
+            </g>
+            <g id="Group-3-Copy" transform="translate(140.000000, 1460.000000)" stroke="#979797" stroke-width="2">
+                <use id="Rectangle-6" mask="url(#mask-24)" xlink:href="#path-23"></use>
+            </g>
+            <g id="Group-3-Copy-2" transform="translate(140.000000, 1651.000000)" stroke="#979797" stroke-width="2">
+                <use id="Rectangle-6" mask="url(#mask-26)" xlink:href="#path-25"></use>
+            </g>
+            <g id="Group-4" transform="translate(197.000000, 1050.000000)">
+                <g id="Group-Copy-5" stroke="#FF5B41" stroke-width="3" fill="#FF5B41">
+                    <circle id="Oval" cx="21" cy="21" r="21"></circle>
+                </g>
+                <g id="ic_forward" transform="translate(9.000000, 9.000000)" stroke="#393531" stroke-linecap="round" stroke-linejoin="round">
+                    <g transform="translate(12.000000, 12.000000) scale(-1, 1) translate(-12.000000, -12.000000) " id="ic_back">
+                        <g stroke-width="2">
+                            <g id="back" transform="translate(8.000000, 4.000000)">
+                                <path d="M8,0 L0,8" id="Line"></path>
+                                <path d="M0,8 L8,16" id="Line"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-4-Copy" transform="translate(197.000000, 1312.000000)">
+                <g id="Group-Copy-5" stroke="#FF5B41" stroke-width="3" fill="#FF5B41">
+                    <circle id="Oval" cx="21" cy="21" r="21"></circle>
+                </g>
+                <g id="ic_forward" transform="translate(9.000000, 9.000000)" stroke="#393531" stroke-linecap="round" stroke-linejoin="round">
+                    <g transform="translate(12.000000, 12.000000) scale(-1, 1) translate(-12.000000, -12.000000) " id="ic_back">
+                        <g stroke-width="2">
+                            <g id="back" transform="translate(8.000000, 4.000000)">
+                                <path d="M8,0 L0,8" id="Line"></path>
+                                <path d="M0,8 L8,16" id="Line"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-4-Copy-2" transform="translate(197.000000, 1503.000000)">
+                <g id="Group-Copy-5" stroke="#FF5B41" stroke-width="3" fill="#FF5B41">
+                    <circle id="Oval" cx="21" cy="21" r="21"></circle>
+                </g>
+                <g id="ic_forward" transform="translate(9.000000, 9.000000)" stroke="#393531" stroke-linecap="round" stroke-linejoin="round">
+                    <g transform="translate(12.000000, 12.000000) scale(-1, 1) translate(-12.000000, -12.000000) " id="ic_back">
+                        <g stroke-width="2">
+                            <g id="back" transform="translate(8.000000, 4.000000)">
+                                <path d="M8,0 L0,8" id="Line"></path>
+                                <path d="M0,8 L8,16" id="Line"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-4-Copy-3" transform="translate(197.000000, 1694.000000)">
+                <g id="Group-Copy-5" stroke="#FF5B41" stroke-width="3" fill="#FF5B41">
+                    <circle id="Oval" cx="21" cy="21" r="21"></circle>
+                </g>
+                <g id="ic_forward" transform="translate(9.000000, 9.000000)" stroke="#393531" stroke-linecap="round" stroke-linejoin="round">
+                    <g transform="translate(12.000000, 12.000000) scale(-1, 1) translate(-12.000000, -12.000000) " id="ic_back">
+                        <g stroke-width="2">
+                            <g id="back" transform="translate(8.000000, 4.000000)">
+                                <path d="M8,0 L0,8" id="Line"></path>
+                                <path d="M0,8 L8,16" id="Line"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-4-Copy-4" transform="translate(197.000000, 1885.000000)">
+                <g id="Group-Copy-5" stroke="#FF5B41" stroke-width="3" fill="#FF5B41">
+                    <circle id="Oval" cx="21" cy="21" r="21"></circle>
+                </g>
+                <g id="ic_forward" transform="translate(9.000000, 9.000000)" stroke="#393531" stroke-linecap="round" stroke-linejoin="round">
+                    <g transform="translate(12.000000, 12.000000) scale(-1, 1) translate(-12.000000, -12.000000) " id="ic_back">
+                        <g stroke-width="2">
+                            <g id="back" transform="translate(8.000000, 4.000000)">
+                                <path d="M8,0 L0,8" id="Line"></path>
+                                <path d="M0,8 L8,16" id="Line"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-Copy-3" opacity="0.55" transform="translate(220.000000, 1069.000000)">
+                <circle id="Oval-3" fill="#B1F0DA" cx="17" cy="17" r="10"></circle>
+                <circle id="Oval-3-Copy" stroke="#B1F0DA" stroke-width="3" cx="17" cy="17" r="16.5"></circle>
+            </g>
+            <g id="Group-Copy-4" opacity="0.55" transform="translate(133.000000, 1265.000000)">
+                <circle id="Oval-3" fill="#B1F0DA" cx="17" cy="17" r="10"></circle>
+                <circle id="Oval-3-Copy" stroke="#B1F0DA" stroke-width="3" cx="17" cy="17" r="16.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

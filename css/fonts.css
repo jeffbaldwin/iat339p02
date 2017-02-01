@@ -1,0 +1,49 @@
+@font-face {
+	font-family: 'Circular';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Circular.eot');
+	src: url('../fonts/Circular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Circular.woff') format('woff'),
+		 url('../fonts/Circular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Circular';
+	font-weight: normal;
+	font-style: italic;
+	src: url('../fonts/Circular-Italic.eot');
+	src: url('../fonts/Circular-Italic.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Circular-Italic.eot.woff') format('woff'),
+		 url('../fonts/Circular-Italic.eot.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Circular';
+	font-weight: bold;
+	font-style: normal;
+	src: url('../fonts/Circular-Bold.eot');
+	src: url('../fonts/Circular-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Circular-Bold.woff') format('woff'),
+		 url('../fonts/Circular-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Circular';
+	font-weight: 300;
+	font-style: normal;
+	src: url('../fonts/Circular-Medium.eot');
+	src: url('../fonts/Circular-Medium.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Circular-Medium.woff') format('woff'),
+		 url('../fonts/Circular-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Circular';
+	font-weight: 300;
+	font-style: italic;
+	src: url('../fonts/Circular-MediumItalic.eot');
+	src: url('../fonts/Circular-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Circular-MediumItalic.woff') format('woff'),
+		 url('../fonts/Circular-MediumItalic.ttf') format('truetype');
+}
