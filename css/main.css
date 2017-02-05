@@ -52,23 +52,18 @@ h5 {
     text-transform: uppercase;
 }
 
-/* SUBTITLES FOR ELEMENT SECTIONS */
-.subtitles {
-    margin: auto;
-    width: 35%;
+/* PARAGRAPH */
+
+p {
+    width: 35rem;
+    /* FONT STYLING */
+    font-size: 0.9rem;
+    letter-spacing: 0.02rem;
+    line-height: 1.35rem;
+    color: #FF5B41;
 }
 
-.subtitles>h2 {
-    width: 100%;
-    margin-top: 8rem;
-    padding: 0.8rem 2rem;
-    border-radius: 2rem;
-    background-color: #4B86DC;
-    color: #FFF;
-}
-
-
-/* LIST ELEMENTS (DEFAULT)*/
+/* LIST ELEMENTS */
 
 ul {
     margin: 0;
@@ -78,67 +73,44 @@ ul {
 li {
     list-style-type: none;
     padding-bottom: 0.5rem;
-}
-
-li a {
-    text-decoration: none;
-    color: #393531;
-}
-
-li a:active, a:hover {
-    text-decoration: none;
-}
-
-/* LINK STYLING */
-.text_link {
-    text-decoration: none;
-    font-size: 1.8rem;
-    color: #FF5B41;
-}
-
-.text_link:hover {
-    border: none;
-    background-color: #B1F0DA;
-    color: #FFF;
-}
-
-/* BULLETED LIST STYLING */
-.bulleted_list {
-    margin-left: 4rem;
-}
-
-
-/* ADDING BULLETS TO LIST http://www.w3schools.com/html/html_lists.asp */
-
-.bulleted_list>li {
-    list-style-type: disc;
-    color: #393531;
-    /* FONT STYLING */
-    font-size: 0.9rem;
-}
-
-/* NUMBERED LIST STYLING */
-.numbered_list {
-    margin-left: 2rem;
-}
-
-
-/* ADDING NUMBERS TO LIST http://www.w3schools.com/css/css_list.asp */
-
-.numbered_list>li {
-    list-style-type: decimal-leading-zero;
-    color: #393531;
-    /* FONT STYLING */
-    font-size: 0.9rem;
-}
-
-p {
-    width: 35rem;
     /* FONT STYLING */
     font-size: 0.9rem;
     letter-spacing: 0.02rem;
     line-height: 1.35rem;
+    color: #FF5B41;
 }
+
+.bulleted_list {
+    margin-left: 4rem;
+}
+
+.bulleted_list>li {
+    list-style-type: disc;
+}
+
+.numbered_list {
+    margin-left: 2rem;
+}
+
+.numbered_list>li {
+    list-style-type: decimal-leading-zero;
+}
+
+/* LINK STYLING */
+
+.text_link {
+    text-decoration: none;
+    color: #FF5B41;
+    border-bottom: solid;
+    border-width: 2px;
+    transition: 0.3s;
+}
+
+.text_link:hover {
+    color: #4B86DC;
+}
+
+/* CODE */
 
 code {
     display: inline-block;
@@ -181,46 +153,33 @@ code {
 
 /* FORM ELEMENTS */
 
-.submit_form {
+.form_button {
     padding: 0.3rem 1rem;
     margin-right: 3rem;
-    border: medium solid #FFE341;
-    background-color: #FFF2EE;
-    color: #FFE341;
     /* FONT STYLING */
     font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
+    transition: 0.3s;
 }
 
-.submit_form:hover {
-    padding: 0.3rem 1rem;
-    background-color: #FFE341;
-    border: medium solid #FFE341;
+.form_button:hover, .form_button:focus {
+    background-color: #B1F0DA;
+    border: medium solid #B1F0DA;
     color: #FFF;
 }
 
-.reset_form {
-    padding: 0.3rem 1.2rem;
-    margin-right: 3rem;
+.submit_button {
+    border: medium solid #B1F0DA;
+    background-color: #FFF2EE;
+    color: #B1F0DA;
+}
+
+.reset_button {
     border: medium solid #e8e5d7;
     background-color: #FFF2EE;
     color: #e8e5d7;
-    /* FONT STYLING */
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
 }
-
-.reset_form:hover {
-    padding: 0.3rem 1.2rem;
-    background-color: #e8e5d7;
-    border: medium solid #e8e5d7;
-    color: #FFF;
-}
-
-
-/* STYLING INPUTS http://www.w3schools.com/css/css_form.asp */
 
 .label_form {
     display: block;
@@ -229,16 +188,72 @@ code {
 }
 
 .input_form {
-    width: 40%;
-    padding: 1rem 1.3rem;
+    width: 20em;
+    padding: 0.8rem 1rem;
     border: medium solid #FFF;
-    transition: 0.5s;
+    transition: 0.3s;
     outline: none;
 }
 
-.input_form:focus {
-    border: medium solid #FFE341;
+.input_form:focus, .input_form:hover {
+    border: medium solid #B1F0DA;
 }
+
+
+/* NAVIGATION */
+
+nav {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.button_nav {
+    text-align: center;
+    display: inline-block;
+    margin: 3rem 2rem 3.3rem 2rem;
+    /* FONT STYLING*/
+    font-weight: 300;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.07rem;
+}
+
+.button_nav a {
+    text-decoration: none;
+    border-bottom: solid;
+    border-width: 2px;
+    color: #FF5B41;
+    transition: 0.3s;
+}
+
+.button_nav a:hover, .button_nav a:focus {
+    color: #4B86DC;
+}
+
+/* LOGO */
+
+#logo {
+    /* CENTERING LOGO IMAGE http://stackoverflow.com/questions/3157372/css-horizontal-centering-of-a-fixed-div */
+    /* Z-INDEX http://stackoverflow.com/questions/1093955/make-the-image-go-behind-the-text-and-keep-it-in-center-using-css */
+    position: fixed;
+    width: 27rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+
+
+
+
+
+
+
+/* STYLE GUIDE STUFF ?? */
 
 
 /* ELEMENTS DIVISION */
@@ -257,6 +272,21 @@ code {
     margin-bottom: 5rem;
 }
 
+/* SUBTITLES FOR ELEMENT SECTIONS */
+
+.subtitles {
+    margin: auto;
+    width: 35%;
+}
+
+.subtitles>h2 {
+    width: 100%;
+    margin-top: 8rem;
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    background-color: #4B86DC;
+    color: #FFF;
+}
 
 /* BRAND DIVISION */
 
@@ -286,51 +316,7 @@ code {
 }
 
 
-/* NAVIGATION */
 
-nav {
-    width: 100%;
-    margin: 0;
-    text-align: center;
-/*    background-color: #FFF2EE;*/
-}
-
-.button_nav {
-    text-align: center;
-    display: inline-block;
-    margin: 3rem 2rem 3.3rem 2rem;
-    /* FONT STYLING*/
-    font-weight: 300;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    letter-spacing: 0.07rem;
-}
-
-.button_nav a {
-    border-bottom: solid;
-    border-width: 2px;
-    color: #FF5B41;
-    background-color: #FFF2EE;
-}
-
-.button_nav a:active, a:hover {
-    border-bottom: solid;
-    border-width: 2px;
-    color: #4B86DC;
-}
-
-#logo {
-    /* CENTERING LOGO IMAGE http://stackoverflow.com/questions/3157372/css-horizontal-centering-of-a-fixed-div */
-    /* Z-INDEX http://stackoverflow.com/questions/1093955/make-the-image-go-behind-the-text-and-keep-it-in-center-using-css */
-    position: fixed;
-    width: 27rem;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    display: inline-block;
-    z-index: -1;
-    opacity: 0.1;
-}
 
 
 /* GRID STRUCTURE */
