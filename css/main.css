@@ -9,6 +9,12 @@ body {
     color: #FF5B41;
 }
 
+@media screen and (max-width:800px) {
+    body {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
 
 /* HEADINGS */
 
@@ -189,6 +195,18 @@ nav {
 
 .button_nav a:hover, .button_nav a:focus {
     color: #4B86DC;
+}
+
+@media (max-width:650px) {
+    .button_nav {
+        display: block;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    
+    .button_nav a {
+        border-width: 4px;
+    }
 }
 
 /* LOGO */
