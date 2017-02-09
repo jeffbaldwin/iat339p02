@@ -1,6 +1,6 @@
 body {
     background-color: #FFF2EE;
-    margin: 2rem 10rem;
+    margin: 2rem 0rem;
     /* DEFAULT FONT STYLING*/
     font-family: "Circular", Helvetica, sans-serif;
     font-weight: normal;
@@ -170,6 +170,20 @@ li {
 }
 
 
+/* LOGO */
+
+#logo {
+    position: fixed;
+    width: 27rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+
 /* NAVIGATION */
 
 nav {
@@ -213,58 +227,127 @@ nav {
 }
 
 
-/* LOGO */
+/* CONTENT CONTAINER */
 
-#logo {
-    /* CENTERING LOGO IMAGE http://stackoverflow.com/questions/3157372/css-horizontal-centering-of-a-fixed-div */
-    /* Z-INDEX http://stackoverflow.com/questions/1093955/make-the-image-go-behind-the-text-and-keep-it-in-center-using-css */
-    position: fixed;
-    width: 27rem;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    display: inline-block;
-    z-index: -1;
-    opacity: 0.1;
+.content_container {
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 1000px;
 }
 
+/* */
+
+.intro_content_container {
+    padding: 2rem;
+}
 
 /* PRODUCT LISTING */
 
 .product_listing {
-    margin: 1rem 0;
-    padding: 1.2rem;
-    width: 20rem;
+    padding: 2rem;
+    width: 33%;
     display: inline-block;
     vertical-align: top;
 }
 
-.product_image {
+.product_listing_image {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
-.product_price {
+.product_listing_info {
+    display: block;
+    margin-top: 1rem;
+    vertical-align: top;
+}
+
+.product_listing_name {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.2rem;
+    max-width: 15rem;
+}
+
+.product_listing_price {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.2rem;
+    max-width: 15rem;
+}
+
+.product_listing_designer {
+    max-width: 8rem;
+    margin-top: 0;
+    margin-bottom: 1.3rem;
+    /* FONT STYLING */
+    text-align: left;
+    font-weight: bold;
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+
+.product_listing:hover .product_listing_name {
+    color: blue;
+}
+
+/* OLD PRICE STUFF???? */
+
+/*
+.product_listing_price {
     opacity: 0;
     position: absolute;
     left: 0;
     text-align: center;
     top: 72px;
     width: 100%;
-    /*FONT STYLING*/
     font-size: 5rem;
     font-weight: bold;
     color: #FFF2EE;
 }
+*/
 
-.div_product_image {
-    display: block;
-    width: 16rem;
-    position: relative;
+/*
+.product_listing_price {
+    display: inline-block;
+    padding-top: 5rem;
+    vertical-align: top;
+}
+
+.product_listing_price>a {
+    text-decoration: none;
+    border: 0.6rem solid #B1F0DA;
+    padding: 0.7rem 2rem;
+    color: #B1F0DA;
+    font-weight: bold;
+    font-size: 5rem;
+    letter-spacing: -0.2rem;
+}
+
+.product_listing_price>a:hover {
+    text-decoration: none;
+    border: 0.6rem solid #B1F0DA;
+    background-color: #B1F0DA;
+    padding: 0.7rem 2rem;
+    color: #FFF;
+}
+*/
+
+/* HOVER IMAGE W/ TEXT http://www.corelangs.com/css/box/hover.html */
+
+.product_listing_image_container:hover .product_listing_price {
+    opacity: 1;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    transition: opacity 0.5s;
 }
 
 
-/* PRODUCT DETAILS */
+
+/* PRODUCT DETAIL PAGE */
 
 .product_image_full {
     display: inline-block;
@@ -289,63 +372,9 @@ nav {
 }
 
 
-/* HOVER IMAGE W/ TEXT http://www.corelangs.com/css/box/hover.html */
 
-.div_product_image:hover .product_price {
-    opacity: 1;
-    -webkit-transition: opacity 0.5s;
-    -moz-transition: opacity 0.5s;
-    transition: opacity 0.5s;
-}
 
-.div_product {
-    display: block;
-    margin-top: 1rem;
-    vertical-align: top;
-}
 
-.div_product_price {
-    display: inline-block;
-    padding-top: 5rem;
-    vertical-align: top;
-}
-
-.div_product>h1 {
-    font-size: 2rem;
-    line-height: 2.2rem;
-    margin-bottom: 0.5rem;
-    width: 15rem;
-}
-
-.div_product>h2 {
-    width: 8rem;
-    margin-bottom: 1.3rem;
-    /* FONT STYLING */
-    text-align: left;
-    font-weight: bold;
-    font-size: 0.7rem;
-    letter-spacing: 0.1rem;
-    text-transform: uppercase;
-}
-
-.div_product_price>a {
-    text-decoration: none;
-    border: 0.6rem solid #B1F0DA;
-    padding: 0.7rem 2rem;
-    color: #B1F0DA;
-    /* FONT STYLING */
-    font-weight: bold;
-    font-size: 5rem;
-    letter-spacing: -0.2rem;
-}
-
-.div_product_price>a:hover {
-    text-decoration: none;
-    border: 0.6rem solid #B1F0DA;
-    background-color: #B1F0DA;
-    padding: 0.7rem 2rem;
-    color: #FFF;
-}
 
 
 /* STYLE GUIDE STUFF ?? */
