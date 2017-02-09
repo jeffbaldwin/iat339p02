@@ -227,19 +227,28 @@ nav {
 }
 
 
-/* CONTENT CONTAINER */
+/* CONTAINERS N STUFF */
 
 .content_container {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: auto;
+    width: 80%;
     max-width: 1000px;
 }
 
 /* */
 
-.intro_content_container {
+.intro_content_container { /* change the name */
     padding: 2rem;
 }
+
+.intro_paragraph {
+    max-width: 33rem;
+    /* FONT STYLING */
+    font-size: 1.3rem;
+    letter-spacing: 0.005rem;
+    line-height: 1.6rem;
+}
+
 
 /* PRODUCT LISTING */
 
@@ -291,8 +300,19 @@ nav {
 
 
 .product_listing:hover .product_listing_name {
-    color: blue;
+    color: #4B86DC;
 }
+
+.product_listing:hover .product_listing {
+    cursor: pointer;
+}
+
+product_listing_name:hover .product_listing_name {
+    color: #4B86DC;
+}
+
+
+
 
 /* OLD PRICE STUFF???? */
 
@@ -373,6 +393,45 @@ nav {
 
 
 
+/* UPDATES */
+
+.update_container {
+    padding: 2rem;
+}
+
+.update_title_container {
+    
+}
+
+.update_title { /* h2 */
+    display: inline-block;
+}
+
+.update_timestamp { /* h3 */
+    display: inline-block;
+}
+
+.update_image {
+    display: inline-block;
+    float: clear;
+    width: 30%;
+}
+
+.update_copy { /* p */
+    display: inline-block;
+/*    float: right;*/
+    vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -382,14 +441,7 @@ nav {
 
 /* INTRO SECTION */
 
-#intro {
-    width: 33rem;
-    padding-bottom: 0.5rem;
-    /* FONT STYLING */
-    font-size: 1.3rem;
-    letter-spacing: 0.005rem;
-    line-height: 1.6rem;
-}
+
 
 
 /* GO TO HEADING FOR ANCHOR LINKS */
