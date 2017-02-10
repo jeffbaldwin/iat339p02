@@ -9,15 +9,8 @@ body {
     color: #FF5B41;
 }
 
-@media screen and (max-width:800px) {
-    body {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-}
 
-
-/* HEADINGS */
+/* -------------------- HEADINGS -------------------- */
 
 h1 {
     max-width: 35rem;
@@ -39,7 +32,8 @@ h2 {
 
 h3 {
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+/*    display: inline-block;*/
     /* FONT STYLING */
     text-transform: uppercase;
     font-weight: bold;
@@ -59,8 +53,15 @@ h5 {
     text-transform: uppercase;
 }
 
+@media screen and (max-width: 700px) {
+    h1.page_heading {
+        width: 100%;
+        text-align: center;
+    }
+}
 
-/* PARAGRAPH */
+
+/* -------------------- PARAGRAPH -------------------- */
 
 p {
     max-width: 35rem;
@@ -71,8 +72,17 @@ p {
     color: #FF5B41;
 }
 
+.large_text_paragraph {
+    max-width: 33rem;
+    margin-top: 1rem;
+    /* FONT STYLING */
+    font-size: 1.3rem;
+    letter-spacing: 0.005rem;
+    line-height: 1.6rem;
+}
 
-/* LIST ELEMENTS */
+
+/* -------------------- LIST ELEMENTS -------------------- */
 
 ul {
     margin: 0;
@@ -83,14 +93,19 @@ li {
     list-style-type: none;
     padding-bottom: 0.5rem;
     /* FONT STYLING */
+/*
     font-size: 0.9rem;
     letter-spacing: 0.02rem;
     line-height: 1.35rem;
     color: #FF5B41;
+*/
+    font-size: 1.3rem;
+    letter-spacing: 0.005rem;
+    line-height: 1.6rem;
 }
 
 .bulleted_list {
-    margin-left: 4rem;
+    margin-left: 2rem;
 }
 
 .bulleted_list>li {
@@ -106,7 +121,7 @@ li {
 }
 
 
-/* LINK STYLING */
+/*  -------------------- LINK STYLING -------------------- */
 
 .text_link {
     text-decoration: none;
@@ -121,10 +136,11 @@ li {
 }
 
 
-/* FORM ELEMENTS */
+/* -------------------- FORM ELEMENTS -------------------- */
 
 .form_button {
-    padding: 0.3rem 1rem;
+    display: block;
+    padding: 0.6rem 1rem;
     margin-right: 3rem;
     /* FONT STYLING */
     font-size: 1.5rem;
@@ -153,24 +169,37 @@ li {
 
 .label_form {
     display: block;
-    width: 20rem;
+/*    width: 20rem;*/
+    margin-top: 1rem;
     margin-bottom: 0.3rem;
 }
 
 .input_form {
-    width: 20em;
+    width: 20rem;
     padding: 0.8rem 1rem;
     border: medium solid #FFF;
+/*    margin-bottom: 1rem;*/
     transition: 0.3s;
     outline: none;
 }
 
-.input_form:focus, .input_form:hover {
+.input_form_long {
+    width: 100%;
+    max-width: 35rem;
+    height: 10rem;
+    padding: 0.8rem 1rem;
+    border: medium solid #FFF;
+    margin-bottom: 2rem;
+    transition: 0.3s;
+    outline: none;
+}
+
+.input_form:focus, .input_form:hover, .input_form_long:focus, .input_form_long:hover {
     border: medium solid #B1F0DA;
 }
 
 
-/* LOGO */
+/* -------------------- LOGO -------------------- */
 
 #logo {
     position: fixed;
@@ -184,7 +213,7 @@ li {
 }
 
 
-/* NAVIGATION */
+/* -------------------- NAVIGATION -------------------- */
 
 nav {
     width: 100%;
@@ -215,7 +244,7 @@ nav {
     color: #4B86DC;
 }
 
-@media (max-width:650px) {
+@media (max-width: 700px) {
     .button_nav {
         display: block;
         font-weight: 700;
@@ -227,7 +256,7 @@ nav {
 }
 
 
-/* CONTAINERS N STUFF */
+/* -------------------- CONTAINERS N STUFF -------------------- */
 
 .content_container {
     margin: auto;
@@ -235,22 +264,36 @@ nav {
     max-width: 1000px;
 }
 
-/* */
+@media screen and (max-width: 700px) {
+    
+    .content_container {
+        width: 100%;
+    }
+    
+}
 
 .intro_content_container { /* change the name */
     padding: 2rem;
 }
 
-.intro_paragraph {
-    max-width: 33rem;
-    /* FONT STYLING */
-    font-size: 1.3rem;
-    letter-spacing: 0.005rem;
-    line-height: 1.6rem;
+.subcontent_group {
+    margin-bottom: 2rem;
 }
 
+/*
+#home_content_head {
+    position: absolute;
+    bottom: 2rem;
+}
 
-/* PRODUCT LISTING */
+#product_listings_container {
+    position: absolute;
+    top: 105vh;
+}
+*/
+
+
+/* -------------------- PRODUCT LISTING -------------------- */
 
 .product_listing {
     padding: 2rem;
@@ -259,10 +302,28 @@ nav {
     vertical-align: top;
 }
 
-.product_listing_image {
-    width: 100%;
-    height: auto;
+@media screen and (max-width: 1100px) {
+    .product_listing {
+        width: 49.5%;
+    }
 }
+
+@media screen and (max-width: 700px) {
+    .product_listing {
+        width: 100%;
+    }
+}
+
+.product_listing_image_container {
+    overflow: hidden;
+}
+
+.product_listing_image {
+    max-width: 100%;
+    height: auto;
+    transform: scale(1.05);
+    transition: 0.3s;
+ }
 
 .product_listing_info {
     display: block;
@@ -274,43 +335,217 @@ nav {
     font-size: 1.8rem;
     line-height: 2.2rem;
     margin-top: 0.8rem;
-    margin-bottom: 0.2rem;
+    margin-bottom: 1rem;
     max-width: 15rem;
+    color: #FF5B41;
+    transition: 0.3s;
+}
+
+.product_listing_subinfo {
+    border-top: solid 2px #FF5B41;
 }
 
 .product_listing_price {
-    font-size: 1.8rem;
+    font-size: 2.2rem; /*1.8rem*/
     line-height: 2.2rem;
     margin-top: 0.8rem;
     margin-bottom: 0.2rem;
     max-width: 15rem;
+    color: #FF5B41;
+    display: inline-block;
 }
 
 .product_listing_designer {
     max-width: 8rem;
     margin-top: 0;
     margin-bottom: 1.3rem;
+    vertical-align: baseline;
+    padding-left: 0.5rem;
     /* FONT STYLING */
     text-align: left;
     font-weight: bold;
     font-size: 0.7rem;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
+    color: #FF5B41;
 }
 
+.product_listing>a {
+    text-decoration: none;
+}
 
-.product_listing:hover .product_listing_name {
+.product_listing_clickable:hover .product_listing_name {
     color: #4B86DC;
 }
 
-.product_listing:hover .product_listing {
-    cursor: pointer;
+.product_listing_clickable:hover .product_listing_image {
+    transform: scale(1.2);
 }
 
-product_listing_name:hover .product_listing_name {
-    color: #4B86DC;
+
+
+/* -------------------- PRODUCT DETAIL PAGE -------------------- */
+
+.product_detail_image_container {
+    display: inline-block;
+    width: 40%;
+/*    max-width: 30rem;*/
+    padding: 2rem;
 }
 
+.product_detail_image {
+    width: 100%;
+    height: auto;
+}
+
+.product_detail_container {
+    display: inline-block;
+    width: 58%;
+    vertical-align: top;
+    padding: 2rem;
+}
+
+.product_detail_name {
+    margin-bottom: 1.5rem;
+}
+
+.product_detail_bordered { /* div */
+    border-top: solid 2px #FF5B41;
+    border-bottom: solid 2px #FF5B41;
+
+}
+
+.product_detail_price {
+    display: inline-block;
+    font-size: 4rem;
+}
+
+.product_detail_designer {
+    display: inline-block;
+    max-width: 12rem;
+    margin-left: 1rem;
+    margin-top: 1.2rem;
+}
+
+.product_detail_description {
+    margin-top: 2rem;
+}
+
+.product_detail_quantity_container {
+    display: inline-block;
+}
+
+.quantity_button {
+    display: inline-block;
+    margin-right: 0;
+}
+
+.quantity_input_form {
+    width: 5rem;
+}
+
+.product_detail_purchase_container {
+    margin-top: 2rem;
+    display: inline-block;
+}
+
+@media screen and (max-width: 1000px) {
+    .product_detail_image_container {
+        width: 100%;
+    }
+    
+    .product_detail_container {
+        width: 100%;
+    }
+
+/* -------------------- UPDATES -------------------- */
+
+.update_container {
+    padding: 2rem;
+    padding-top: 0;
+}
+
+.update_title_container {
+    
+}
+
+.update_title { /* h2 */
+    display: inline-block;
+    margin-right; 2rem;
+}
+
+.update_timestamp { /* h3 */
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.update_image {
+    display: inline-block;
+    float: clear;
+    width: 30%;
+}
+
+.update_copy { /* p */
+    display: inline-block;
+    vertical-align: top;
+    width: 65%;
+    max-width: none;
+    padding-left: 2rem;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.update_container_underline {
+    border-bottom: solid 2px #FF5B41;
+    padding-top: 2rem;
+}
+
+
+@media screen and (max-width: 900px) {
+    
+    .update_image {
+        width: 100%;
+    }
+    
+    .update_copy {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    
+    .update_title {
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .update_timestamp { /* h3 */
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .update_copy {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* -------------------- STYLE GUIDE STUFF -------------------- ?? */
 
 
 
@@ -364,79 +599,6 @@ product_listing_name:hover .product_listing_name {
     -moz-transition: opacity 0.5s;
     transition: opacity 0.5s;
 }
-
-
-
-/* PRODUCT DETAIL PAGE */
-
-.product_image_full {
-    display: inline-block;
-    width: 30rem;
-    position: relative;
-}
-
-.product_description {
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 2rem;
-  width: 20rem;
-}
-
-.div_quantity {
- display: inline-block;
-}
-
-.div_product_purchase {
-  margin-top: 3rem;
-  display: inline-block;
-}
-
-
-
-/* UPDATES */
-
-.update_container {
-    padding: 2rem;
-}
-
-.update_title_container {
-    
-}
-
-.update_title { /* h2 */
-    display: inline-block;
-}
-
-.update_timestamp { /* h3 */
-    display: inline-block;
-}
-
-.update_image {
-    display: inline-block;
-    float: clear;
-    width: 30%;
-}
-
-.update_copy { /* p */
-    display: inline-block;
-/*    float: right;*/
-    vertical-align: top;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* STYLE GUIDE STUFF ?? */
 
 
 /* INTRO SECTION */
