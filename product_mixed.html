@@ -24,29 +24,44 @@
         </ul>
     </nav>
 
-    <section>
-        <div class="product_image_full">
-            <img class="product_image" src="img/pin_mixed.jpg" alt="Mixed Emotions Pin">
+    <div class="content_container">
+        
+        <div class="product_detail_image_container">
+            <img class="product_detail_image" src="img/pin_mixed.jpg" alt="Mixed Emotions Pin">
         </div>
 
-        <div class="product_description">
-            <h1>Mixed Emotions Pin</h1>
-            <h2>Designed by Tuesday Bassen</h2>
-            <p>For the sensitive individuals that are proud members of their emotions thus, with this pin they have pleged to join the club and be unapologetic about their feelings, whatever their feelings are. <i>Buying this pin entitles you to a lifetime membership in the Mixed Emotions Club.</i></p>
+        <div class="product_detail_container">
+            
+            <h1 class="product_detail_name">Mixed Emotions Pin</h1>
+            
+            <div class="product_detail_bordered">
+                <h1 class="product_detail_price">$25</h1>
+                <h3 class="product_detail_designer">Designed by Tuesday Bassen</h3>
+            </div>
+        
+            <p class="product_detail_description large_text_paragraph">For the sensitive individuals that are proud members of their emotions thus, with this pin they have pleged to join the club and be unapologetic about their feelings, whatever their feelings are.</p>
+            <p class="product_detail_description large_text_paragraph">Buying this pin entitles you to a lifetime membership in the Mixed Emotions Club.</p>
 
-            <div class="div_quantity">
-                <h3>Quantity</h3>
-                <button>-</button>
-                <input type="number" class="quantity_input">
-                <button>+</button>
+            <div class="product_detail_quantity_container">
+                
+                <h3>Purchase</h3>
+<!--                <button class="form_button submit_button quantity_button">-</button>-->
+                <label for="quantity" class="label_form">Quantity:</label>
+                <input type="number" name="quantity" class="input_form quantity_input_form">
+<!--                <button class="form_button submit_button quantity_button">+</button>-->
+                
             </div>
 
-            <div class="div_product_purchase">
-                <button>Add to Cart</button>
+            <div class="product_detail_purchase_container">
+                
+                <button type="submit" class="form_button submit_button">Add to Cart</button>
+                
             </div>
 
         </div>
-    </section>
+        
+    </div>
+    
 </body>
 
 </html>
