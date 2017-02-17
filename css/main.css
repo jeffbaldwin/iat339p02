@@ -457,6 +457,7 @@ nav {
     .product_detail_container {
         width: 100%;
     }
+}
 
 /* -------------------- UPDATES -------------------- */
 
@@ -481,7 +482,7 @@ nav {
 
 .update_image {
     display: inline-block;
-    float: clear;
+/*    float: clear;*/
     width: 30%;
 }
 
