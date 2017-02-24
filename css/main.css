@@ -587,11 +587,11 @@ nav {
 }
 
 .product_detail_subheading {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 .product_detail_quantity_container {
-    display: inline-block;
+    display: block;
 }
 
 .quantity_button {
@@ -600,12 +600,20 @@ nav {
 }
 
 .quantity_input_form {
-    width: 5rem;
+    width: 7rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    
+    .quantity_input_form {
+        width: 100%;
+    }
 }
 
 .product_detail_purchase_container {
-    margin-top: 2rem;
-    display: inline-block;
+    margin-top: 1rem;
+    display: block;
 }
 
 @media screen and (max-width: 1000px) {
