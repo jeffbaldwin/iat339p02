@@ -76,9 +76,9 @@ p {
     max-width: 33rem;
     margin-top: 1rem;
     /* FONT STYLING */
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     letter-spacing: 0.005rem;
-    line-height: 1.6rem;
+    line-height: 1.7rem;
 }
 
 
@@ -184,6 +184,7 @@ li {
 }
 
 .input_form_long {
+    display: block;
     width: 100%;
     max-width: 35rem;
     height: 10rem;
@@ -356,7 +357,7 @@ nav {
 }
 
 .product_listing_designer {
-    max-width: 8rem;
+/*    max-width: 8rem;*/
     margin-top: 0;
     margin-bottom: 1.3rem;
     vertical-align: baseline;
@@ -467,7 +468,7 @@ nav {
 }
 
 .update_title_container {
-
+    padding-bottom: 1rem;
 }
 
 .update_title { /* h2 */
@@ -478,6 +479,7 @@ nav {
 .update_timestamp { /* h3 */
     display: inline-block;
     margin-left: 2rem;
+    margin-top: 0;
 }
 
 .update_image {
