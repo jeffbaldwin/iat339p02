@@ -308,6 +308,10 @@ li {
     border: medium solid #4B86DC;
 }
 
+.extra_top_margin {
+    margin-top: 2rem;
+}
+
 /* -------------------- CART -------------------- */
 
 .cart_review_container {
