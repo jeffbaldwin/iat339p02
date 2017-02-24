@@ -1,6 +1,6 @@
 body {
     background-color: #FFF2EE;
-    margin: 2rem 0rem;
+    margin: 2rem 0rem 0rem 0rem;
     /* DEFAULT FONT STYLING*/
     font-family: "Circular", Helvetica, sans-serif;
     font-weight: normal;
@@ -734,6 +734,10 @@ nav {
 
 /* -------------------- FOOTER -------------------- */
 
+footer {
+    margin-top: 3rem;
+}
+
 .footer_container {
     background-color: #FF5B41;
     color: #FFF2EE;
@@ -762,15 +766,17 @@ nav {
 .footer_top_text {
     color: #FFF2EE;
     /*FONT STYLE*/
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     letter-spacing: 0.05rem;
 }
 
 .footer_input_form {
-    width: 20rem;
+    width: 100%;
+    max-width: 20rem;
     display: inline-block;
     padding: 0.8rem 1rem;
-    margin-right: 0.3rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
     border: medium solid #FFF;
     transition: 0.3s;
     outline: none;
@@ -858,15 +864,26 @@ nav {
     .footer_top_container {
       padding-bottom: 0.5rem;
     }
+    
+    footer .small_text_paragraph {
+        max-width: 100%;
+    }
 
     .footer_input_form {
-      width: 18rem;
+      width: 100%;
+      display: block;
       margin-bottom: 1rem;
+    }
+    
+    .footer_form_button {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
     }
 
     .footer_copyright {
         list-style-type: none;
-        display: inline-block;
+        display: block;
         margin: 0 2rem;
     }
 
@@ -876,6 +893,15 @@ nav {
         margin: 0 1rem;
     }
 }
+
+
+
+
+
+
+
+
+
 
 
 /* -------------------- STYLE GUIDE STUFF -------------------- ?? */
@@ -1042,13 +1068,6 @@ code {
     background-clip: content-box;
     padding: 0 1rem;
     height: 12rem;
-}
-
-
-/* FOOTER */
-
-footer {
-    margin-top: 10rem;
 }
 
 
