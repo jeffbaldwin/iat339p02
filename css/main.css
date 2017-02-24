@@ -90,6 +90,23 @@ p {
     line-height: 1.4rem; 
 } 
 
+.medium_text_paragraph {
+  max-width: 20rem;
+  margin-top: 0;
+  /*FONT STYLING*/
+  font-size: 1.1rem;
+  letter-spacing: 0.005rem;
+  line-height: 1.6rem;
+}
+
+.small_text_paragraph {
+    max-width: 33rem;
+    margin-top: 1rem;
+    /* FONT STYLING */
+    font-size: 0.9rem;
+    letter-spacing: 0.005rem;
+    line-height: 1.4rem;
+}
 
 /* -------------------- LIST ELEMENTS -------------------- */
 
