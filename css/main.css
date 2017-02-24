@@ -435,6 +435,14 @@ nav {
     max-width: 12rem;
     margin-left: 1rem;
     margin-top: 1.2rem;
+    color: #FF5B41;
+    text-decoration: none;
+    
+    transition: 0.3s;
+}
+
+.product_detail_designer:hover, .product_detail_designer:focus {
+    color: #FF5B41;
 }
 
 .product_detail_description {
