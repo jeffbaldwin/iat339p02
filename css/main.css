@@ -608,6 +608,27 @@ nav {
     text-align: center;
 }
 
+.product_rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  margin-top: 0.5rem;
+  /*FONT STYLE*/
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+/* Star rating code taken from https://css-tricks.com/star-ratings/ */
+.product_rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.7em;
+}
+.product_rating > span:hover:before,
+.product_rating > span:hover ~ span:before {
+   content: "●";
+   position: absolute;
+}
+
 @media screen and (max-width: 700px) {
     .quantity_input_form {
         width: 100%;
