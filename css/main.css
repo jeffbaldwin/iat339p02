@@ -81,6 +81,15 @@ p {
     line-height: 1.7rem;
 }
 
+.small_text_paragraph {
+    max-width: 33rem;
+    margin-top: 1rem;
+    /* FONT STYLING */
+    font-size: 0.9rem;
+    letter-spacing: 0.005rem;
+    line-height: 1.4rem;
+}
+
 
 /* -------------------- LIST ELEMENTS -------------------- */
 
@@ -357,7 +366,7 @@ nav {
 }
 
 .product_listing_designer {
-/*    max-width: 8rem;*/
+    max-width: 10rem;
     margin-top: 0;
     margin-bottom: 1.3rem;
     vertical-align: baseline;
