@@ -864,17 +864,18 @@ footer {
     .footer_top_container {
       padding-bottom: 0.5rem;
     }
-    
+
     footer .small_text_paragraph {
         max-width: 100%;
     }
 
     .footer_input_form {
       width: 100%;
+      max-width: 40rem;
       display: block;
       margin-bottom: 1rem;
     }
-    
+
     .footer_form_button {
         width: 100%;
         text-align: center;
@@ -893,13 +894,6 @@ footer {
         margin: 0 1rem;
     }
 }
-
-
-
-
-
-
-
 
 
 
@@ -968,7 +962,8 @@ footer {
 /* GO TO HEADING FOR ANCHOR LINKS */
 
 .goto_intro {
-    margin: 0.5rem 0rem;
+    margin: 0.5rem 0;
+    margin-top: 2rem;
     padding: 0;
     background-color: #FFF2EE;
     color: #FF5B41;
