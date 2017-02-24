@@ -63,6 +63,11 @@ h5 {
 
 /* -------------------- PARAGRAPH -------------------- */
 
+a {
+    text-decoration: none;
+    display: inline;
+}
+
 p {
     max-width: 35rem;
     /* FONT STYLING */
@@ -224,7 +229,7 @@ li {
     display: inline-block; 
     display: block; 
     padding: 0.6rem 1rem; 
-    margin-right: 3rem; 
+/*    margin-right: 3rem; */
     /* FONT STYLING */
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -241,12 +246,14 @@ li {
 }
 
 .submit_button {
+    display: inline-block;
     border: medium solid #FF5B41; 
     background-color: #FF5B41; 
     color: #FFF; 
 }
 
 .reset_button {
+    display: inline-block;
     border: medium solid #FF5B41; 
     background-color: #FF5B41; 
     opacity: 0.5; 
