@@ -575,11 +575,15 @@ nav {
 }
 
 .product_detail_designer:hover, .product_detail_designer:focus {
-    color: #FF5B41;
+    color: #4B86DC;
 }
 
 .product_detail_description {
     margin-top: 2rem;
+}
+
+.product_detail_subheading {
+    margin-top: 1rem;
 }
 
 .product_detail_quantity_container {
