@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250px" height="250px" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>Brand (White)</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Brand-(White)">
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="10" stroke-linejoin="round" cx="125" cy="125" r="110"></circle>
+            <circle id="Oval-2" fill="#FFFFFF" cx="66.0714286" cy="125.785714" r="11.7857143"></circle>
+            <ellipse id="Oval-2-Copy" fill="#FFFFFF" cx="185.5" cy="125.785714" rx="11.7857143" ry="11.7857143"></ellipse>
+            <path d="M69.2142857,185 L182.368055,185" id="Line" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M68.4285714,81 C68.4285714,81 80.7468209,50.1522787 125.005456,50.1522787 C169.264091,50.1522787 181.582341,81 181.582341,81" id="Line-Copy" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M125,92.7857143 L125,152.520673" id="Line" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>
