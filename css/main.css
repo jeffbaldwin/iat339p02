@@ -1,12 +1,13 @@
 body {
     background-color: #FFF2EE;
-    margin: 2rem 0rem 0rem 0rem;
+    margin: 0rem 0rem 0rem 0rem;
     /* DEFAULT FONT STYLING*/
     font-family: "Circular", Helvetica, sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: 1.1rem;
     color: #FF5B41;
+    overflow-x: hidden;
 }
 
 
@@ -316,32 +317,42 @@ li {
 }
 
 .cart_image {
-    width: 10rem;
-    display: block;
+/*    width: 10rem;*/
+    width: 100%;
+    display: inline-block;
+}
+
+.cart_image_column {
+    display: inline-block;
+    width: 25%;
+    margin-right: 2%;
 }
 
 .cart_product_column {
     display: inline-block;
-    width: 48%;
-    margin-right: 3%;
+    width: 40%;
+    vertical-align: top;
 }
 
 .cart_quantity_column {
     display: inline-block;
-    width: 22%;
+    width: 15%;
     text-align: right;
+    vertical-align: top;
 }
 
 .cart_price_column {
     display: inline-block;
-    width: 22%;
+    width: 15%;
     text-align: right;
+    vertical-align: top;
 }
 
 .cart_text {
     font-size: 1.3rem;
     letter-spacing: 0.005rem;
-    margin: 0.8rem 0;
+/*    margin: 0.8rem 0;*/
+    margin-top: 4rem;
     /*    border: medium solid #B1F0DA; */
 }
 
@@ -364,6 +375,16 @@ li {
     opacity: 0.1;
 }
 
+#logo_small {
+/*    position: absolute;*/
+    max-width: 4rem;
+/*    left: 10%;*/
+/*    transform: translate(-50%, 0%);*/
+    display: inline;
+    box-sizing: content-box;
+    padding: 2rem 2rem 0rem 2rem;
+}
+
 
 /* -------------------- NAVIGATION -------------------- */
 
@@ -371,12 +392,14 @@ nav {
     width: 100%;
     margin: 0;
     text-align: center;
+    background-color: #FF5B41;
+    margin-bottom: 3rem;
 }
 
 .button_nav {
     text-align: center;
     display: inline-block;
-    margin: 3rem 2rem 3.3rem 2rem;
+    margin: 1rem 1rem 1rem 1rem;
     /* FONT STYLING*/
     font-weight: 300;
     font-size: 0.9rem;
@@ -388,7 +411,8 @@ nav {
     text-decoration: none;
     border-bottom: solid;
     border-width: 2px;
-    color: #FF5B41;
+/*    color: #FF5B41;*/
+    color: white;
     transition: 0.3s;
 }
 
@@ -397,10 +421,16 @@ nav {
 }
 
 @media (max-width: 700px) {
+    nav {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    
     .button_nav {
         display: block;
         font-weight: 700;
         font-size: 2rem;
+        margin: 3rem 2rem 3rem 2rem;
     }
     .button_nav a {
         border-width: 4px;

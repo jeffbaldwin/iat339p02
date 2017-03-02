@@ -15,15 +15,18 @@
 
 <body>
 
-    <img id="logo" src="img/Logo.svg" alt="Logo of Sensitive Pins">
+    <!--    <img id="logo" src="../img/Logo.svg" alt="Logo of I'm Sorry, So Sorry">-->
 
-    <!-- LINKS -->
-    <nav>
+    <!-- LINKS TO PROTOTYPES AND CITATIONS -->
+    <nav>        
+        <img id="logo_small" src="img/Logo_white.svg" alt="Sensitive Pins Logo">
+
         <ul>
-            <li class="button_nav"><a href="about.html">About Us</a></li>
-            <li class="button_nav"><a href="index.html">Home</a></li>
-            <li class="button_nav"><a href="updates.html">Updates</a></li>
-        </ul>
+          <li class="button_nav"><a href="index.html">Pins</a></li>
+          <li class="button_nav"><a href="about.html">About</a></li>
+          <li class="button_nav"><a href="updates.html">Blog</a></li>
+          <li class="button_nav"><a href="cart.html">Cart</a></li>
+        </ul>        
     </nav>
 
     <div class="content_container">
@@ -39,8 +42,12 @@
                 <div class="cart_review_container">
 
                     <div class="cart_row">
+                        <div class="cart_image_column">
+                            <p>Image</p>
+                        </div>
+                        
                         <div class="cart_product_column">
-                            <p>Products</p>
+                            <p>Product Name</p>
                         </div>
 
                         <div class="cart_quantity_column">
@@ -53,7 +60,10 @@
                     </div>
 
                     <div class="cart_row">
-                        <img class="cart_image" src="img/pin_mixed.jpg" alt="Mixed Emotions Pin">
+                        
+                        <div class="cart_image_column">
+                            <img class="cart_image" src="img/pin_mixed.jpg" alt="Mixed Emotions Pin">
+                        </div>
 
                         <div class="cart_product_column">
                             <p class="cart_text">Mixed Emotions Club Pin</p>
@@ -69,7 +79,10 @@
                     </div>
 
                     <div class="cart_row">
-                        <img class="cart_image" src="img/pin_erase.jpeg" alt="Mixed Emotions Pin">
+                        
+                        <div class="cart_image_column">
+                            <img class="cart_image" src="img/pin_erase.jpeg" alt="Mixed Emotions Pin">
+                        </div>
 
                         <div class="cart_product_column">
                             <p class="cart_text">Erase You Pin</p>
@@ -87,12 +100,15 @@
                     <div class="cart_review_underline"></div>
 
                     <div class="cart_row">
-                        <div class="cart_product_column">
+                        
+                        <div class="cart_image_column">
                             <p class="cart_text">Total</p>
+                        </div>
+                        
+                        <div class="cart_product_column">
                         </div>
 
                         <div class="cart_quantity_column">
-                            <p></p>
                         </div>
 
                         <div class="cart_price_column">
