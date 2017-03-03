@@ -443,7 +443,7 @@ nav {
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
-    
+
     .button_nav {
         display: block;
         font-weight: 700;
@@ -658,23 +658,45 @@ nav {
     text-align: center;
 }
 
-.product_rating {
-  unicode-bidi: bidi-override;
-  direction: rtl;
-  margin-top: 0.5rem;
-  /*FONT STYLE*/
-  font-size: 1.4rem;
+.product_more {
+  padding-top: 5rem;
+}
+
+.product_more_heading {
+  font-size: 2rem;
   text-align: center;
+  max-width: none;
+}
+
+/*.product_more_arrow {
+  width: 5%;
+}*/
+
+.product_rating {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem 0;
+  border-bottom: solid 2px #FF5B41;
 }
 
 /* Star rating code taken from https://css-tricks.com/star-ratings/ */
-.product_rating > span {
+.product_rating_stars {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  /*FONT STYLE*/
+  font-size: 1.4rem;
+}
+
+.product_rating_stars > span {
   display: inline-block;
   position: relative;
   width: 1.7em;
 }
-.product_rating > span:hover:before,
-.product_rating > span:hover ~ span:before {
+.product_rating_stars > span:hover:before,
+.product_rating_stars > span:hover ~ span:before {
    content: "●";
    position: absolute;
 }

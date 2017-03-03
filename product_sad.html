@@ -10,26 +10,26 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/grids.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
-    
+
     <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 
 </head>
 
 <body>
-    
+
     <!--    <img id="logo" src="../img/Logo.svg" alt="Logo of I'm Sorry, So Sorry">-->
 
     <!-- LINKS TO PROTOTYPES AND CITATIONS -->
-    <nav id="nav">        
+    <nav id="nav">
         <img id="logo_small" src="img/Logo_white.svg" alt="Sensitive Pins Logo">
 
         <ul>
-          <li class="button_nav"><a href="index.html">Pins</a></li>
-          <li class="button_nav"><a href="about.html">About</a></li>
-          <li class="button_nav"><a href="updates.html">Blog</a></li>
-          <li class="button_nav"><a href="cart.html">Cart</a></li>
-        </ul>        
+            <li class="button_nav"><a href="index.html">Pins</a></li>
+            <li class="button_nav"><a href="about.html">About</a></li>
+            <li class="button_nav"><a href="updates.html">Blog</a></li>
+            <li class="button_nav"><a href="cart.html">Cart</a></li>
+        </ul>
     </nav>
 
     <div class="content_container">
@@ -37,7 +37,10 @@
         <div class="product_detail_image_container">
             <img class="product_detail_image" src="img/pin_sad.jpg" alt="Sad Songs Pin Product Image">
             <div class="product_rating">
-                <span>○</span><span>○</span><span>○</span><span>○</span><span>○</span>
+                <div class="product_rating_stars">
+                    <span>○</span><span>○</span><span>○</span><span>○</span><span>○</span>
+                </div>
+                <p>22 Customer Reviews</p>
             </div>
         </div>
 
@@ -69,7 +72,6 @@
                 <label for="quantity" class="label_form">Quantity:</label>
                 <input type="number" name="quantity" class="input_form quantity_input_form" placeholder="1" min="1" max="10">
                 <!--                <button class="form_button submit_button quantity_button">+</button>-->
-
             </div>
 
             <div class="product_detail_purchase_container">
@@ -77,11 +79,71 @@
                     <button type="submit" class="form_button submit_button">Add to Cart</button>
                 </a>
             </div>
+        </div>
+    </div>
 
+    <!-- MORE PRODUCTS -->
+    <div class="content_container product_more">
+
+        <h1 class="product_more_heading">More Products</h1>
+
+        <!-- <img class="product_more_arrow" src="img/arrow_left.svg" alt="More Products Left Arrow"> -->
+
+        <div class="product_listing">
+            <a href="product_sad.html">
+                <div class="product_listing_clickable">
+                    <div class="product_listing_image_container">
+                        <img class="product_listing_image" src="img/pin_sad.jpg" alt="Sad Songs Pin Product Image">
+                    </div>
+                    <div class="product_listing_info">
+                        <h1 class="product_listing_name">Sad Songs</h1>
+                        <div class="product_listing_subinfo">
+                            <h1 class="product_listing_price">$14</h1>
+                            <h2 class="product_listing_designer">Designed by<br>Stay Home Club</h2>
+                        </div>
+                    </div>
+                </div>
+            </a>
         </div>
 
+        <div class="product_listing">
+            <a href="product_erase.html">
+                <div class="product_listing_clickable">
+                    <div class="product_listing_image_container">
+                        <img class="product_listing_image" src="img/pin_erase.jpeg" alt="Erase You Pin Product Image">
+                    </div>
+                    <div class="product_listing_info">
+                        <h1 class="product_listing_name">Erase You</h1>
+                        <div class="product_listing_subinfo">
+                            <h1 class="product_listing_price">$15</h1>
+                            <h2 class="product_listing_designer">Designed by<br>Tuesday Bassen</h2>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="product_listing">
+            <a href="product_mixed.html">
+                <div class="product_listing_clickable">
+                    <div class="product_listing_image_container">
+                        <img class="product_listing_image" src="img/pin_mixed.jpg" alt="Mixed Emotions Club Pin Product Image">
+                    </div>
+                    <div class="product_listing_info">
+                        <h1 class="product_listing_name">Mixed Emotions Club</h1>
+                        <div class="product_listing_subinfo">
+                            <h1 class="product_listing_price">$25</h1>
+                            <h2 class="product_listing_designer">Designed by<br>Tuesday Bassen</h2>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- <img class="product_more_arrow" src="img/arrow_right.svg" alt="More Products Right Arrow"> -->
     </div>
-    
+
+    <!-- FOOTER -->
     <footer class="footer_container">
         <div class="footer_top grid">
             <div class="footer_top_container col-1of4">
