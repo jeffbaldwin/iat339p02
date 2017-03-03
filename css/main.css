@@ -394,6 +394,24 @@ nav {
     text-align: center;
     background-color: #FF5B41;
     margin-bottom: 3rem;
+    position: absolute;
+    z-index: 100;
+}
+
+.fix_nav {
+    position: fixed;
+    top: -100px;
+}
+
+@media screen and (max-width: 700px) {
+    .fix_nav {
+        position: absolute;
+        top: 0px;
+    }
+}
+
+.nav_ul {
+    background-color: #FF5B41;
 }
 
 .button_nav {
@@ -420,7 +438,7 @@ nav {
     color: #4B86DC;
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
     nav {
         padding-top: 1rem;
         padding-bottom: 1rem;
@@ -442,6 +460,7 @@ nav {
 
 .content_container {
     margin: auto;
+    padding-top: 15rem;
     width: 80%;
     max-width: 1000px;
 }
@@ -449,6 +468,7 @@ nav {
 @media screen and (max-width: 700px) {
     .content_container {
         width: 100%;
+        padding-top: 35rem;
     }
 }
 
