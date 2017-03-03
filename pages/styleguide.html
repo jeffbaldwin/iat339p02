@@ -10,9 +10,9 @@
     <link href="../css/main.css" rel="stylesheet">
     <link href="../css/grids.css" rel="stylesheet">
     <link href="../css/fonts.css" rel="stylesheet">
-    
-    <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+
+    <script type="text/javascript" src="../js/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
 
 </head>
 
@@ -20,16 +20,16 @@
 
     <!--    <img id="logo" src="../img/Logo.svg" alt="Logo of I'm Sorry, So Sorry">-->
 
-    <!-- LINKS TO PROTOTYPES AND CITATIONS -->
-    <nav id="nav">        
+    <!-- NAV -->
+    <nav id="nav">
         <img id="logo_small" src="../img/Logo_white.svg" alt="Sensitive Pins Logo">
 
-        <ul>
+        <ul class="nav_ul">
           <li class="button_nav"><a href="../index.html">Pins</a></li>
           <li class="button_nav"><a href="../about.html">About</a></li>
           <li class="button_nav"><a href="../updates.html">Blog</a></li>
           <li class="button_nav"><a href="../cart.html">Cart</a></li>
-        </ul>        
+        </ul>
     </nav>
 
     <div class="content_container">
@@ -360,18 +360,6 @@
             <section>
                 <h3>Main Navigation</h3>
 
-<!--
-                <div class="rendered">
-                    <nav>
-                        <ul>
-                            <li class="button_nav"><a href="#">Services</a></li>
-                            <li class="button_nav"><a href="#">About</a></li>
-                            <li class="button_nav"><a href="#">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
--->
-
                 <div class="div_elements">
                     <h4>Tag & Class Name</h4>
                     <p>&lt;nav&gt;<br>.button_nav</p>
@@ -395,37 +383,48 @@
                 <h3>Service Listing</h3>
 
                 <div class="rendered">
-                    <section class="product_listing">
-                        <div class="div_product_image">
-                            <a href="#"><img class="product_image" src="../img/pin_mixed.jpg" alt="Mixed Emotions Club Product Image"></a>
-                            <div class="product_price">$25</div>
-                        </div>
-
-                        <div class="div_product">
-                            <h1>Mixed Emotions Club Pin</h1>
-                            <h2>Designed by Tuesday Bassen</h2>
-                        </div>
-                    </section>
+                  <div class="product_listing">
+                      <a href="product_sad.html">
+                          <div class="product_listing_clickable">
+                              <div class="product_listing_image_container">
+                                  <img class="product_listing_image" src="../img/pin_sad.jpg" alt="Sad Songs Pin Product Image">
+                              </div>
+                              <div class="product_listing_info">
+                                  <h1 class="product_listing_name">Sad Songs</h1>
+                                  <div class="product_listing_subinfo">
+                                      <h1 class="product_listing_price">$14</h1>
+                                      <h2 class="product_listing_designer">Designed by<br>Stay Home Club</h2>
+                                  </div>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
                 </div>
 
                 <div class="div_elements">
                     <h4>Class Names</h4>
-                    <p>.product_listing<br>.div_product<br>.div_product_image<br>.product_image<br>.product_price<br>.div_elements</p>
+                    <p>.product_listing<br>.product_listing_clickable<br>.product_listing_image_container<br>.product_listing_image<br>.product_listing_info<br>.product_listing_name<br>.product_listing_subinfo<br>.product_listing_price<br>.product_listing_designer
                 </div>
 
                 <div class="div_elements">
                     <h4>Sample Code</h4>
                     <code>
-                      &lt;section class="product_listing"&gt;<br>
-                      &nbsp;&nbsp;&nbsp;&lt;div class="div_product_image"&gt;<br>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="#"&gt;&lt;img class="product_image" src="../img/pin_mixed.jpg" alt="Mixed Emotions Club Product Image"&gt;&lt;/a&gt;<br>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="product_price"&gt;$25&lt;/div&gt;
-                      &nbsp;&nbsp;&nbsp;&lt;/div&gt;<br><br>
-
-                      &nbsp;&nbsp;&nbsp;&lt;div class="div_product"&gt;<br>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Mixed Emotions Club Pin&lt;/h1&gt;<br>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2&gt;Designed by Tuesday Bassen&lt;/h2&gt;<br>
-                      &nbsp;&nbsp;&nbsp;&lt;/div&gt;<br><br>
+                      &lt;div class="product_listing""&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&lt;a href="product_sad.html"&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="product_listing_clickable"&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="product_listing_image_container"&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img class="product_listing_image" src="../img/pin_sad.jpg" alt="Sad Songs Pin Product Image"&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="product_listing_info"&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1 class="product_listing_name">Sad Songs&lt;/h1&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="product_listing_subinfo"&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1 class="product_listing_price">$14&lt;/h1>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2 class="product_listing_designer">Designed by&lt;br&gt;Stay Home Club&lt;/h2&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&lt;/a&gt;<br>
+                      &lt;/div&gt;<br><br>
                     </code>
                 </div>
             </section>
@@ -503,8 +502,8 @@
                 <li class="footer_copyright">
                     <p class="footer_text">© Sensitive Pins 2017</p>
                 </li>
-                <li class="footer_copyright"><a class="text_link footer_link footer_text" href="pages/styleguide.html">Style Guide</a></li>
-                <li class="footer_copyright"><a class="text_link footer_link footer_text" href="pages/citations.html">Citations</a></li>
+                <li class="footer_copyright"><a class="text_link footer_link footer_text" href="#">Style Guide</a></li>
+                <li class="footer_copyright"><a class="text_link footer_link footer_text" href="citations.html">Citations</a></li>
             </ul>
             <div class="footer_social">
                 <div class="footer_icons">
