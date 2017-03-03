@@ -645,7 +645,7 @@ nav {
 }
 
 .product_detail_quantity_container {
-    display: block;
+    display: inline-block;
 }
 
 .quantity_button {
@@ -687,7 +687,7 @@ nav {
 
 .product_detail_purchase_container {
     margin-top: 1rem;
-    display: block;
+    display: inline-block;
 }
 
 @media screen and (max-width: 1000px) {
@@ -781,6 +781,15 @@ nav {
     }
 }
 
+/* CITATIONS */
+.citation_container {
+  margin: 1rem 12rem;
+}
+
+.citation_list {
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+}
 
 /* -------------------- FOOTER -------------------- */
 
@@ -944,9 +953,6 @@ footer {
         margin: 0 1rem;
     }
 }
-
-
-
 
 /* -------------------- STYLE GUIDE STUFF -------------------- ?? */
 
