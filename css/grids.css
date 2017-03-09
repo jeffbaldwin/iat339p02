@@ -43,9 +43,22 @@
     }
 }
 
+
+/* CART GRID */
+
 .col-1of5 {
     width: 20%;
     display: inline-block;
+}
+
+.col-7of20 {
+    width: 35%;
+    display: inline-block;
+}
+
+.col-3of20 {
+  width: 15%;
+  display: inline-block;
 }
 
 .grid:after {
