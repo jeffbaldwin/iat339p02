@@ -252,8 +252,6 @@ li {
     color: #FFF;
 }
 
-.add_to_cart {}
-
 @media screen and (max-width: 700px) {
     .submit_button {
         width: 100%;
@@ -441,13 +439,17 @@ li {
 }
 
 #logo_small {
-    /*    position: absolute;*/
+/*    position: absolute;*/
     max-width: 4rem;
-    /*    left: 10%;*/
-    /*    transform: translate(-50%, 0%);*/
+/*    left: 10%;*/
+/*    transform: translate(-50%, 0%);*/
     display: inline;
     box-sizing: content-box;
     padding: 2rem 2rem 0rem 2rem;
+}
+
+.nav_img {
+    display: inline;
 }
 
 
@@ -477,6 +479,8 @@ nav {
 
 .nav_ul {
     background-color: #FF5B41;
+    
+    display: block;
 }
 
 .button_nav {
@@ -514,9 +518,22 @@ nav {
         font-size: 2rem;
         margin: 3rem 2rem 3rem 2rem;
     }
+    
     .button_nav a {
         border-width: 4px;
     }
+    
+    #nav_button {
+        display: block;
+    }
+}
+
+.nav_hidden {
+    display: none;
+}
+
+#nav_toggle {
+    cursor: pointer;
 }
 
 
@@ -532,7 +549,7 @@ nav {
 @media screen and (max-width: 700px) {
     .content_container {
         width: 100%;
-        padding-top: 35rem;
+        padding-top: 18rem;
     }
 }
 
@@ -716,18 +733,72 @@ nav {
 }
 
 .product_detail_quantity_container {
-    display: inline-block;
+    display: block;
+    width: 100%;
 }
 
-.quantity_button {
-    display: inline-block;
-    margin-right: 0;
+#quantity_form {
+    
 }
 
 .quantity_input_form {
     width: 7rem;
     text-align: center;
 }
+
+.qty {
+    width: 6.8rem;
+    height: 3rem;
+    text-align: center;
+    border: none;
+    border: medium solid #FFF;
+    transition: 0.3s;
+}
+
+.qty:hover, .qty:focus {
+    border: medium solid #4B86DC;
+}
+
+input.qty_button { 
+    width: 3rem; 
+    height: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    border: medium solid #FF5B41;
+    background-color: #FF5B41;
+    color: #FFF;
+    transition: 0.3s;
+}
+
+input.qty_button:hover, input.qty_button:focus {
+    background-color: #4B86DC;
+    border: medium solid #4B86DC;
+    color: #FFF;
+    cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+@media screen and (max-width: 700px) {
+    
+    .qty {
+        width: 57%;
+    }
+    
+    input.qty_button { 
+        width: 20%; 
+    }
+}
+
+.add_to_cart {
+    display: block;
+}
+
 
 .product_more {
     padding-top: 5rem;
