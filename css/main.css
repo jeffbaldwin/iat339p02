@@ -418,13 +418,13 @@ li {
 }
 
 #logo_small {
-/*    position: absolute;*/
     max-width: 4rem;
-/*    left: 10%;*/
-/*    transform: translate(-50%, 0%);*/
-    display: inline;
     box-sizing: content-box;
     padding: 2rem 2rem 0rem 2rem;
+}
+
+.nav_img {
+    display: inline;
 }
 
 
@@ -454,6 +454,8 @@ nav {
 
 .nav_ul {
     background-color: #FF5B41;
+    
+    display: block;
 }
 
 .button_nav {
@@ -492,9 +494,22 @@ nav {
         font-size: 2rem;
         margin: 3rem 2rem 3rem 2rem;
     }
+    
     .button_nav a {
         border-width: 4px;
     }
+    
+    #nav_button {
+        display: block;
+    }
+}
+
+.nav_hidden {
+    display: none;
+}
+
+#nav_toggle {
+    cursor: pointer;
 }
 
 
@@ -510,7 +525,7 @@ nav {
 @media screen and (max-width: 700px) {
     .content_container {
         width: 100%;
-        padding-top: 35rem;
+        padding-top: 18rem;
     }
 }
 
