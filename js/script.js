@@ -49,9 +49,9 @@ $("document").ready(function($){
     /* Show more text in updates */
     
     $('.update_show_more').on('click', function(){
-        $('.update_copy').children('.update_show_more').addClass("update_hidden");
-        $('.update_copy').children('.update_ellipses').addClass("update_hidden");
-        $('.update_copy').children('.update_hidden_copy').removeClass("update_hidden");
+        $(this).addClass("update_hidden");
+        $(this).siblings('.update_ellipses').addClass("update_hidden");
+        $(this).siblings('.update_hidden_copy').removeClass("update_hidden");
     })
     
     /* -------------------- */
