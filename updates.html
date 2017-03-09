@@ -22,13 +22,17 @@
 
     <!-- NAV -->
     <nav id="nav">
-        <img id="logo_small" src="img/Logo_white.svg" alt="Sensitive Pins Logo">
+        <img id="logo_small" class="nav_img" src="img/Logo_white.svg" alt="Sensitive Pins Logo">
 
-        <ul>
-          <li class="button_nav"><a href="index.html">Pins</a></li>
-          <li class="button_nav"><a href="about.html">About</a></li>
-          <li class="button_nav"><a href="updates.html">Blog</a></li>
-          <li class="button_nav"><a href="cart.html">Cart</a></li>
+        <ul id="nav_button" class="nav_ul nav_hidden">
+            <li class="button_nav"><a id="nav_toggle">Nav</a></li>
+        </ul>
+        
+        <ul id="nav_items" class="nav_ul nav_hidden">
+            <li class="button_nav"><a href="index.html">Pins</a></li>
+            <li class="button_nav"><a href="about.html">About</a></li>
+            <li class="button_nav"><a href="updates.html">Blog</a></li>
+            <li class="button_nav"><a href="cart.html">Cart</a></li>
         </ul>
     </nav>
 
@@ -52,7 +56,7 @@
 
             <img class="update_image" src="img/pin_sad.jpg" alt="Update image">
 
-            <p class="update_copy large_text_paragraph">
+            <p id="update-1" class="update_copy large_text_paragraph">
                 We are welcoming the arrival of Stay Home Club and their awesome new pin design that owns the slogan “Sad Songs”. Stay Home Club is created and ran by Olivia Mew from Montreal, Canada. She designs for those with no life but is unapologetic about it.
                 <br><br> Sad Songs was a statement piece created to signify sensitivities associated with emotional songs and being okay with those feelings. When coming up with an idea, Olivia was listening to her “Breakup not Makeup” Spotify playlist,
                 a playlist she made after she broke up with her boyfriend. She felt
