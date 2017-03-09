@@ -24,7 +24,14 @@ $("document").ready(function($){
 
 */
 
+
+
 $("document").ready(function($){
+    
+    
+    
+    
+    /* Stick nav to top when scrolling */
     var nav = $('#nav');
 
     $(window).scroll(function () {
@@ -35,4 +42,44 @@ $("document").ready(function($){
             nav.removeClass("fix_nav");
         }
     });
+    /**/
+    
+    
+    /* 
+    Product image hover zoom + pan 
+    Code partially from: https://codepen.io/ccrch/pen/yyaraz
+    */
+    $('.product_detail_image_inner_container')
+        .on('mouseover', function(){
+          $(this).children('.product_detail_image').css({'transform': 'scale(2)'});
+        })
+        .on('mouseout', function(){
+          $(this).children('.product_detail_image').css({'transform': 'scale(1)'});
+        })
+        .on('mousemove', function(e){
+          $(this).children('.product_detail_image').css({'transform-origin': ((e.pageX - $(this).offset().left) / $(this).width()) * 100 + '% ' + ((e.pageY - $(this).offset().top) / $(this).height()) * 100 +'%'});
+        })
+    
+    
+    $('.update_show_more').on('click', function(){
+        $('.update_copy').children('.update_show_more').addClass("update_hidden");
+        $('.update_copy').children('.update_ellipses').addClass("update_hidden");
+        $('.update_copy').children('.update_hidden_copy').removeClass("update_hidden");
+    })
+    
+    
+    $('#proceed_to_checkout').on('click', function(){
+        window.location.href = "purchase.html";
+    })
+    
+    
+//    button.addEventListener('click', function() {
+//        document.querySelector('ul').classList.toggle('hidden');
+//    })
+
 });
+
+
+
+
+
