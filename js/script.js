@@ -6,7 +6,7 @@ $("document").ready(function($){
     
     /* Stick nav to top when scrolling 
 
-    JS code partly taken from: 
+    Code partly taken from: 
 
     http://stackoverflow.com/questions/13274592/leave-menu-bar-fixed-on-top-when-scrolled
 
@@ -65,16 +65,7 @@ $("document").ready(function($){
     
     /* -------------------- */
     
-    
-//    button.addEventListener('click', function() {
-//        document.querySelector('ul').classList.toggle('hidden');
-//    })
 
-    
-    
-    
-    
-    
     /* Hide/show nav */
     
     /* If the window is smaller than 700px, hide that nav buttons and show the NAV button */
@@ -106,6 +97,50 @@ $("document").ready(function($){
         
     /* -------------------- */
     
+    
+    /* Quantity button
+    
+    Code by Jose Sayago from: 
+    
+    http://jsfiddle.net/laelitenetwork/puJ6G/ */
+    
+    // This button will increment the value
+    $('.qtyplus').click(function(e){
+        console.log('click');
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var fieldName = $(this).attr('field');
+        // Get its current value
+        var currentVal = parseInt($('input[name='+fieldName+']').val());
+        // If is not undefined
+        if (!isNaN(currentVal)) {
+            // Increment
+            $('input[name='+fieldName+']').val(currentVal + 1);
+        } else {
+            // Otherwise put a 0 there
+            $('input[name='+fieldName+']').val(0);
+        }
+    });
+    
+    // This button will decrement the value till 0
+    $(".qtyminus").click(function(e) {
+        console.log('click');
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        var fieldName = $(this).attr('field');
+        // Get its current value
+        var currentVal = parseInt($('input[name='+fieldName+']').val());
+        // If it isn't undefined or its greater than 0
+        if (!isNaN(currentVal) && currentVal > 0) {
+            // Decrement one
+            $('input[name='+fieldName+']').val(currentVal - 1);
+        } else {
+            // Otherwise put a 0 there
+            $('input[name='+fieldName+']').val(0);
+        }
+    });
     
 });
 

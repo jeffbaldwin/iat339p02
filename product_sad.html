@@ -74,14 +74,19 @@
             <div class="product_detail_quantity_container">
 
                 <h3 class="product_detail_subheading">Purchase</h3>
-                <!--                <button class="form_button submit_button quantity_button">-</button>-->
-                <label for="quantity" class="label_form">Quantity:</label>
-                <input type="number" name="quantity" class="input_form quantity_input_form" placeholder="1" min="1" max="10">
-                <!--                <button class="form_button submit_button quantity_button">+</button>-->
-<!--            </div>-->
-
-<!--            <div class="product_detail_purchase_container">-->
-                <button type="submit" class="form_button submit_button add_to_cart">Add to Cart</button>
+                
+                <!-- Code from http://jsfiddle.net/laelitenetwork/puJ6G/ -->
+                
+                <form id='quantity_form' method='POST' action='#'>
+                    <label for="quantity" class="label_form">Quantity:</label>
+                    
+                    <input type='button' value='-' class='qty_button qtyminus' field='quantity' />
+                    <input type='number' name='quantity' value='0' class='qty' />
+                    <input type='button' value='+' class='qty_button qtyplus' field='quantity' />
+                    
+                    <button type="submit" class="form_button submit_button add_to_cart">Add to Cart</button>
+                </form>
+                
             </div>
         </div>
     </div>
