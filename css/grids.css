@@ -13,31 +13,27 @@
     display: inline-block;
 }
 
-@media screen and (max-width: 900px) {
-    .col-1of2 {
-        width: 100%;
-        display: block;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .col-1of2 {
-        width: 100%
-    }
-}
-
 .col-1of4 {
     width: 25%;
     display: inline-block;
 }
 
 @media screen and (max-width: 900px) {
+  .col-1of2 {
+      width: 100%;
+      display: block;
+  }
+
     .col-1of4 {
         width: 50%;
     }
 }
 
 @media screen and (max-width: 700px) {
+  .col-1of2 {
+      width: 100%
+  }
+
     .col-1of4 {
         width: 100%
     }
@@ -58,6 +54,11 @@
 
 .col-3of20 {
   width: 15%;
+  display: inline-block;
+}
+
+.col-17of20 {
+  width: 85%;
   display: inline-block;
 }
 
