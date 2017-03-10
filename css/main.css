@@ -308,7 +308,7 @@ li {
 /* -------------------- CART POPUP -------------------- */
 
 .cart {
-    display: none;
+    display: block;
     position: fixed;
     z-index: 100;
     padding-top: 9rem;
