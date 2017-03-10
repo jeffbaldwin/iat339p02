@@ -488,6 +488,13 @@ li {
 
 /* -------------------- CART IN PURCHASE -------------------- */
 
+.cart_review_text {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #FF5B41;
+    margin: 0.5rem 0;
+}
+
 .cart_review_container {
     /*    width: 95%;*/
     max-width: 40rem;
@@ -520,7 +527,6 @@ li {
     text-align: right;
     vertical-align: top;
 }
-
     
 @media screen and (max-width: 700px) {
     .cart_review_product_column {
@@ -528,12 +534,30 @@ li {
         width: 100%;  
     }
     .cart_review_quantity_column {
-        width: 49%; 
-        text-align: center;
+        width: 65%; 
+        text-align: right;
     }
     .cart_review_price_column {
-        width: 49%; 
-        text-align: center;
+        width: 33%; 
+        text-align: right;
+    }
+    #total_column {
+        display: inline-block;
+        width: 48%;
+        margin-top: 1rem;
+    }
+    #blank_column {
+        width: 0%;
+        margin-top: 1rem;
+    }
+    #price_column {
+        width: 48%;
+        margin-top: 1rem;
+        text-align: right;
+    }
+    .cart_review_third {
+        display: inline-block;
+        width: 32%;
     }
 }
 
