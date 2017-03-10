@@ -311,7 +311,7 @@ li {
 /* -------------------- CART POPUP -------------------- */
 
 .cart {
-    display: none;
+    display: block;
     position: fixed;
     z-index: 2;
     padding-top: 9rem;
@@ -404,6 +404,27 @@ li {
     background-color: #4B86DC;
 }
 
+@media screen and (max-width: 1000px) {
+  .cart_text {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  .cart_value {
+      font-size: 1.4rem;
+  }
+
+  .cart_subtotal {
+      max-width: none;
+      font-size: 1.5rem;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+}
+
 /* -------------------- CART -------------------- */
 
 .cart_review_container {
@@ -446,13 +467,6 @@ li {
 .cart_text_large {
     font-size: 2rem;
 }
-
-
-/*
-.cart_total_text {
-    margin-top: 1rem;
-}
-*/
 
 .cart_review_underline {
     border-bottom: solid 2px #FF5B41;
