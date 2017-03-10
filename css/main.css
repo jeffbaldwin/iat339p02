@@ -498,11 +498,7 @@ li {
 }
 
 #logo_small {
-    /*    position: absolute;*/
     max-width: 4rem;
-    /*    left: 10%;*/
-    /*    transform: translate(-50%, 0%);*/
-    display: inline;
     box-sizing: content-box;
     padding: 2rem 2rem 0rem 2rem;
 }
