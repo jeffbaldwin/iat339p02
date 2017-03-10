@@ -63,10 +63,18 @@ $("document").ready(function($) {
     /* -------------------- */
 
 
-    /* Proceed to checkout link */
+    /* Button links */
 
     $('#proceed_to_checkout').on('click', function() {
         window.location.href = "purchase.html";
+    })
+    
+    $('#complete_purchase').on('click', function() {
+        window.location.href = "purchase-complete.html";
+    })
+    
+    $('#back_to_products').on('click', function() {
+        window.location.href = "index.html";
     })
 
     /* -------------------- */
@@ -147,36 +155,39 @@ $("document").ready(function($) {
             $('input[name=' + fieldName + ']').val(0);
         }
     });
+    
+    /* -------------------- */
 
-    //
-    // Pop up modal Javascript sourced from
-    //     https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal2
+    
+    /* Pop up modal 
+    
+    Javascript sourced from:
+    
+    https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal2 */
+    
+    
+    // When the user clicks on 'cart,' open the modal
+    
+    $('#cart_nav_button').click(function() {
+        console.log('click');
+        $('#cart').removeClass('modal_hidden');
+    });
+    
+    // When the user clicks on 'add to cart,' open the modal
+    
+    $('#add_to_cart').click(function() {
+        console.log('click');
+        $('#cart_modal').removeClass('modal_hidden');
+    });
 
-    // Get the modal
-    var modal = document.getElementsByClassName('cart');
-
-    // Get the button that opens the modal
-    var btn = document.getElementsByClassName("add_to_cart");
-
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("cart_close")[0];
-
-    // When the user clicks the button, open the modal
-    btn.onclick = function() {
-        modal.style.display = "block";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-        modal.style.display = "none";
-    }
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
+    // When the user clicks on 'close,' close the modal
+    
+    $('#cart_close').click(function() {
+        console.log('click');
+        $('#cart_modal').addClass('modal_hidden'); 
+    });
+    
+    /* -------------------- */
 
     
 

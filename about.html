@@ -32,7 +32,7 @@
             <li class="button_nav"><a href="index.html">Pins</a></li>
             <li class="button_nav"><a href="#">About</a></li>
             <li class="button_nav"><a href="updates.html">Blog</a></li>
-            <li class="button_nav"><a href="purchase.html">Cart</a></li>
+            <li id="cart_nav_button" class="button_nav"><a>Cart</a></li>
         </ul>
     </nav>
 
@@ -97,6 +97,72 @@
 
     </div>
 
+    <!-- CART POP-UP -->
+    <div id="cart_modal" class="cart modal_hidden">
+        <section class="cart_content">
+            <div class="cart_header">
+                <h1 class="cart_title">Cart</h1>
+                <span id="cart_close" class="text_link">Close</span>
+            </div>
+
+            <div class="cart_item_container grid">
+                <div class="cart_item_image col-1of5">
+                  <img class="cart_image" src="img/pin_erase.jpeg" alt="Mixed Emotions Pin">
+                </div>
+
+                <div class="cart_item_description col-7of20">
+                  <p class="cart_text">Erase You Pin</p>
+                </div>
+
+                <div class="cart_item_value col-3of20">
+                  <p class="cart_text cart_value">$15</p>
+                </div>
+
+                <div class="cart_item_value col-3of20">
+                  <p class="cart_text cart_value">1 x</p>
+                </div>
+
+                <div class="cart_item_value col-3of20">
+                  <p class="cart_text cart_value">$15</p>
+                </div>
+            </div>
+
+            <div class="cart_item_container grid">
+                <div class="cart_item_image col-1of5">
+                  <img class="cart_image" src="img/pin_mixed.jpg" alt="Mixed Emotions Pin">
+                </div>
+
+                <div class="cart_item_description col-7of20">
+                  <p class="cart_text">Mixed Emotions Club Pin</p>
+                </div>
+
+                <div class="cart_item_value col-3of20">
+                  <p class="cart_text cart_value">$25</p>
+                </div>
+
+                <div class="cart_item_value col-3of20">
+                  <p class="cart_text cart_value">2 x</p>
+                </div>
+
+                <div class="cart_item_value col-3of20">
+                  <p class="cart_text cart_value">$50</p>
+                </div>
+            </div>
+
+            <div class="grid">
+              <div class="cart_footer col-1of2">
+                <h1 class="cart_subtotal">Subtotal $65</h1>
+              </div>
+              <div class="cart_footer cart_button col-1of2">
+              <a class="cart_subtotal" href="purchase.html">
+                Checkout
+              </a>
+            </div>
+
+        </section>
+    </div>
+    
+    <!-- FOOTER -->
     <footer class="footer_container">
         <div class="footer_top grid">
             <div class="footer_top_container col-1of4">

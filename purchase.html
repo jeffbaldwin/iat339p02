@@ -32,7 +32,7 @@
             <li class="button_nav"><a href="index.html">Pins</a></li>
             <li class="button_nav"><a href="about.html">About</a></li>
             <li class="button_nav"><a href="updates.html">Blog</a></li>
-            <li class="button_nav"><a href="#">Cart</a></li>
+            <li id="cart_nav_button" class="button_nav"><a>Cart</a></li>
         </ul>
     </nav>
 
@@ -50,60 +50,60 @@
                 <div class="cart_review_container">
 
                     <div class="cart_row">
-                        <div class="cart_product_column">
+                        <div class="cart_review_product_column">
                             <p>Products</p>
                         </div>
 
-                        <div class="cart_quantity_column">
+                        <div class="cart_review_quantity_column">
                             <p>Quantity</p>
                         </div>
 
-                        <div class="cart_price_column">
+                        <div class="cart_review_price_column">
                             <p>Price</p>
                         </div>
                     </div>
 
                     <div class="cart_row">
-                        <div class="cart_product_column">
-                            <p class="cart_text">Mixed Emotions Club Pin</p>
-                        </div>
-
-                        <div class="cart_quantity_column">
-                            <p class="cart_text">1x</p>
-                        </div>
-
-                        <div class="cart_price_column">
-                            <p class="cart_text">$25</p>
-                        </div>
-                    </div>
-
-                    <div class="cart_row">
-                        <div class="cart_product_column">
+                        <div class="cart_review_product_column">
                             <p class="cart_text">Erase You Pin</p>
                         </div>
 
-                        <div class="cart_quantity_column">
+                        <div class="cart_review_quantity_column">
                             <p class="cart_text">1x</p>
                         </div>
 
-                        <div class="cart_price_column">
+                        <div class="cart_review_price_column">
                             <p class="cart_text">$15</p>
+                        </div>
+                    </div>
+                    
+                    <div class="cart_row">
+                        <div class="cart_review_product_column">
+                            <p class="cart_text">Mixed Emotions Club Pin</p>
+                        </div>
+
+                        <div class="cart_review_quantity_column">
+                            <p class="cart_text">2x</p>
+                        </div>
+
+                        <div class="cart_review_price_column">
+                            <p class="cart_text">$25</p>
                         </div>
                     </div>
 
                     <div class="cart_review_underline"></div>
 
                     <div class="cart_row">
-                        <div class="cart_product_column">
-                            <p class="cart_text">Total</p>
+                        <div class="cart_review_product_column">
+                            <p class="cart_text total">Total</p>
                         </div>
 
-                        <div class="cart_quantity_column">
+                        <div class="cart_review_quantity_column">
                             <p></p>
                         </div>
 
-                        <div class="cart_price_column">
-                            <p class="cart_text">$40</p>
+                        <div class="cart_review_price_column">
+                            <p class="cart_text total">$65</p>
                         </div>
                     </div>
 
@@ -111,13 +111,14 @@
                 </div>
 
             </section>
+            
+            
+            <form class="purchase_form">
 
-            <!-- CUSTOMER/SHIPPING INFORMATION -->
-            <section id="customer_shipping_information" class="subcontent_group">
+                <!-- CUSTOMER/SHIPPING INFORMATION -->
+                <section id="customer_shipping_information" class="subcontent_group">
 
-                <h3>Customer/Shipping Information</h3>
-
-                <form id="customer_shipping_information" class="purchase_form">
+                    <h3>Customer/Shipping Information</h3>
 
                     <div class="purchase_form_1-of-2">
                         <label for="form--first-name" class="label_form">First Name</label>
@@ -164,16 +165,12 @@
                         <input id="form--country" class="input_form" type="text" placeholder="Country">
                     </div>
 
-                </form>
+                </section>
 
-            </section>
+                <!-- BILLING INFORMATION -->
+                <section id="billing_information" class="subcontent-group">
 
-            <!-- BILLING INFORMATION -->
-            <section id="billing_information" class="subcontent-group">
-
-                <h3>Billing Information</h3>
-
-                <form id="customer_shipping_information" class="purchase_form">
+                    <h3>Billing Information</h3>
 
                     <div class="purchase_form_1-of-2">
                         <label for="form--card-first-name" class="label_form">First Name on Card</label>
@@ -205,26 +202,26 @@
                         <input id="form--card-postal-code" class="input_form" type="text" placeholder="Postal Code">
                     </div>
 
-                </form>
 
-            </section>
+                </section>
 
-            <!-- BUTTONS -->
-            <div class="subcontent_group">
+                <!-- BUTTONS -->
+                <div class="subcontent_group">
 
-                <div class="button-container">
-                    <button type="reset" class="form_button reset_button">Reset</button>
-                    <a href="purchase-complete.html">
-                        <button type="submit" class="form_button submit_button">Complete Purchase</button>
-                    </a>
+                    <div class="button-container">
+                        <button type="reset" id="reset" class="form_button reset_button">Reset</button>
+                        <button type="button" id="complete_purchase" class="form_button submit_button">Complete Purchase</button>
+                    </div>
+
                 </div>
-
-            </div>
+                
+            </form>
 
         </div>
 
     </div>
 
+    <!-- FOOTER -->
     <footer class="footer_container">
         <div class="footer_top grid">
             <div class="footer_top_container col-1of4">

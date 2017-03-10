@@ -33,11 +33,11 @@
             <li class="button_nav"><a href="index.html">Pins</a></li>
             <li class="button_nav"><a href="about.html">About</a></li>
             <li class="button_nav"><a href="updates.html">Blog</a></li>
-            <li class="button_nav"><a href="purchase.html">Cart</a></li>
+            <li id="cart_nav_button" class="button_nav"><a>Cart</a></li>
         </ul>
     </nav>
 
-    <section class="content_container">
+    <div class="content_container">
 
         <div class="product_detail_image_container">
             <div class="product_detail_image_inner_container">
@@ -91,12 +91,12 @@
                     <input type='number' name='quantity' value='0' class='qty' />
                     <input type='button' value='+' class='qty_button qtyplus' field='quantity' />
 
-                    <button type="submit" class="form_button submit_button add_to_cart">Add to Cart</button>
+                    <button type="button" id="add_to_cart" class="form_button submit_button">Add to Cart</button>
                 </form>
 
             </div>
         </section>
-    </section>
+    </div>
 
     <!-- MORE PRODUCTS -->
     <section class="content_container product_more">
@@ -156,11 +156,11 @@
     </section>
 
     <!-- CART POP-UP -->
-    <div class="cart">
+    <div id="cart_modal" class="cart modal_hidden">
         <section class="cart_content">
             <div class="cart_header">
                 <h1 class="cart_title">Cart</h1>
-                <span class="text_link cart_close">Close</span>
+                <span id="cart_close" class="text_link">Close</span>
             </div>
 
             <div class="cart_item_container grid">
