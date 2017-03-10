@@ -528,18 +528,18 @@ li {
     text-align: right;
     vertical-align: top;
 }
-    
+
 @media screen and (max-width: 700px) {
     .cart_review_product_column {
         display: block;
-        width: 100%;  
+        width: 100%;
     }
     .cart_review_quantity_column {
-        width: 65%; 
+        width: 65%;
         text-align: right;
     }
     .cart_review_price_column {
-        width: 33%; 
+        width: 33%;
         text-align: right;
     }
     #total_column {
@@ -1509,4 +1509,17 @@ code {
     font-style: italic;
     text-transform: capitalize;
     letter-spacing: 0.03rem;
+}
+
+.grid_text {
+  padding-left: 1rem;
+}
+
+#grid_body {
+  position: absolute;
+  padding-left: 1.3rem;
+}
+
+#grid_content {
+  position: relative;
 }
