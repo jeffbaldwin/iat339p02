@@ -80,7 +80,7 @@ p {
 .large_text_paragraph {
     max-width: 33rem;
     margin-top: 1rem;
-    color: #424242;
+    color: #827879;
     /* FONT STYLING */
     font-size: 1.2rem;
     letter-spacing: 0.005rem;
@@ -90,7 +90,7 @@ p {
 .medium_text_paragraph {
     max-width: 24rem;
     margin-top: 0;
-    color: #424242;
+    color: #827879;
     /*FONT STYLING*/
     font-size: 1.1rem;
     letter-spacing: 0.005rem;
@@ -100,7 +100,7 @@ p {
 .small_text_paragraph {
     max-width: 33rem;
     margin-top: 1rem;
-    color: #424242;
+    color: #827879;
     /* FONT STYLING */
     font-size: 0.9rem;
     letter-spacing: 0.005rem;
@@ -1003,6 +1003,7 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 .update_ellipses {}
 
 .update_show_more {
+    color: #FF5B41;
     font-weight: 700;
     font-variant-caps: all-small-caps;
     transition: 0.3s;
@@ -1402,7 +1403,9 @@ code {
 
 .circle_palette {
     display: inline-block;
-    width: 13rem;
+    max-width: 13rem;
+    margin-top: 2rem;
+    margin-right: 4rem;
 }
 
 .circle_palette>ul>li {
@@ -1414,8 +1417,8 @@ code {
     background-color: #FF5B41;
 }
 
-#mint {
-    background-color: #B1F0DA;
+#grey {
+    background-color: #827879;
 }
 
 #blue {
