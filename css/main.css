@@ -74,13 +74,12 @@ p {
     font-size: 0.9rem;
     letter-spacing: 0.02rem;
     line-height: 1.35rem;
-    color: #FF5B41;
+    color: #4b4b4b;
 }
 
 .large_text_paragraph {
     max-width: 33rem;
     margin-top: 1rem;
-    color: #827879;
     /* FONT STYLING */
     font-size: 1.2rem;
     letter-spacing: 0.005rem;
@@ -90,7 +89,6 @@ p {
 .medium_text_paragraph {
     max-width: 24rem;
     margin-top: 0;
-    color: #827879;
     /*FONT STYLING*/
     font-size: 1.1rem;
     letter-spacing: 0.005rem;
@@ -100,7 +98,6 @@ p {
 .small_text_paragraph {
     max-width: 33rem;
     margin-top: 1rem;
-    color: #827879;
     /* FONT STYLING */
     font-size: 0.9rem;
     letter-spacing: 0.005rem;
@@ -393,6 +390,7 @@ li {
     font-size: 1.2rem;
 /*    max-width: 10rem;*/
     line-height: 1.8rem;
+    color: #FF5B41;
 }
 
 .cart_value {
@@ -455,7 +453,7 @@ li {
         text-align: center;
         max-width: none;
     }
-    
+
     .cart_subtotal, .cart_button {
         padding: 2rem 0;
     }
@@ -541,9 +539,14 @@ li {
     border-bottom: solid 2px #FF5B41;
 }
 
+.cart_label {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
 
 
 /* -------------------- LOGO -------------------- */
+
 #logo {
     position: fixed;
     width: 27rem;
@@ -554,16 +557,20 @@ li {
     z-index: -1;
     opacity: 0.1;
 }
+
 #logo_small {
     max-width: 4rem;
     box-sizing: content-box;
     padding: 2rem 2rem 0rem 2rem;
 }
+
 .nav_img {
     display: inline;
 }
 
+
 /* -------------------- NAVIGATION -------------------- */
+
 nav {
     width: 100%;
     margin: 0;
@@ -573,92 +580,101 @@ nav {
     position: absolute;
     z-index: 1;
 }
+
 .fix_nav {
     position: fixed;
     top: -100px;
 }
+
 @media screen and (max-width: 700px) {
     .fix_nav {
         position: absolute;
         top: 0px;
     }
 }
+
 .nav_ul {
     background-color: #FF5B41;
     display: block;
 }
+
 .button_nav {
     text-align: center;
     display: inline-block;
     margin: 1rem 1rem 1rem 1rem;
     /* FONT STYLING*/
-
     font-weight: 300;
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 0.07rem;
 }
+
 .button_nav a {
     text-decoration: none;
     border-bottom: solid;
     border-width: 2px;
     /*    color: #FF5B41;*/
-
     color: white;
     transition: 0.3s;
 }
+
 .button_nav a:hover, .button_nav a:focus {
     color: #4B86DC;
 }
+
 @media screen and (max-width: 700px) {
     nav {
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
-
     .button_nav {
         display: block;
         font-weight: 700;
         font-size: 2rem;
         margin: 3rem 2rem 3rem 2rem;
     }
-
     .button_nav a {
         border-width: 4px;
     }
-
     #nav_button {
         display: block;
     }
 }
+
 .nav_hidden {
     display: none;
 }
+
 #nav_toggle {
     cursor: pointer;
 }
 
+
 /* -------------------- CONTAINERS N STUFF -------------------- */
+
 .content_container {
     margin: auto;
     padding-top: 12rem;
     width: 80%;
     max-width: 1000px;
 }
+
 @media screen and (max-width: 700px) {
     .content_container {
         width: 100%;
         padding-top: 18rem;
     }
 }
+
 .inner_content_container {
     /* change the name */
-
     padding: 2rem;
 }
+
 .subcontent_group {
     margin-bottom: 2rem;
 }
+
 
 /*
 #intro {
@@ -672,37 +688,45 @@ nav {
 }
 */
 
+
 /* -------------------- PRODUCT LISTING -------------------- */
+
 .product_listing {
     padding: 2rem;
     width: 33%;
     display: inline-block;
     vertical-align: top;
 }
+
 @media screen and (max-width: 1100px) {
     .product_listing {
         width: 49.5%;
     }
 }
+
 @media screen and (max-width: 700px) {
     .product_listing {
         width: 100%;
     }
 }
+
 .product_listing_image_container {
     overflow: hidden;
 }
+
 .product_listing_image {
     max-width: 100%;
     height: auto;
     transform: scale(1.05);
     transition: 0.3s;
 }
+
 .product_listing_info {
     display: block;
     margin-top: 1rem;
     vertical-align: top;
 }
+
 .product_listing_name {
     font-size: 1.8rem;
     line-height: 2.2rem;
@@ -712,13 +736,14 @@ nav {
     color: #FF5B41;
     transition: 0.3s;
 }
+
 .product_listing_subinfo {
     border-top: solid 2px #FF5B41;
 }
+
 .product_listing_price {
     font-size: 2.2rem;
     /*1.8rem*/
-
     line-height: 2.2rem;
     margin-top: 0.8rem;
     margin-bottom: 0.2rem;
@@ -726,6 +751,7 @@ nav {
     color: #FF5B41;
     display: inline-block;
 }
+
 .product_listing_designer {
     max-width: 10rem;
     margin-top: 0;
@@ -733,7 +759,6 @@ nav {
     vertical-align: baseline;
     padding-left: 0.5rem;
     /* FONT STYLING */
-
     text-align: left;
     font-weight: bold;
     font-size: 0.7rem;
@@ -741,52 +766,62 @@ nav {
     text-transform: uppercase;
     color: #FF5B41;
 }
+
 .product_listing>a {
     text-decoration: none;
 }
+
 .product_listing_clickable:hover .product_listing_name {
     color: #4B86DC;
 }
+
 .product_listing_clickable:hover .product_listing_image {
     transform: scale(1.2);
 }
 
+
 /* -------------------- PRODUCT DETAIL PAGE -------------------- */
+
 .product_detail_image_container {
     display: inline-block;
     width: 40%;
     /*    max-width: 30rem;*/
-
     padding: 2rem;
 }
+
 .product_detail_image_inner_container {
     overflow: hidden;
 }
+
 .product_detail_image {
     width: 100%;
     height: auto;
     transition: transform .5s ease-out;
 }
+
 .product_detail_container {
     display: inline-block;
     width: 58%;
     vertical-align: top;
     padding: 2rem;
 }
+
 .product_detail_name {
     margin-bottom: 1.5rem;
     margin-top: -0.9rem;
 }
+
 .product_detail_bordered {
     /* div */
-
     border-top: solid 2px #FF5B41;
     border-bottom: solid 2px #FF5B41;
 }
+
 .product_detail_price {
     display: inline-block;
     font-size: 4rem;
 }
+
 .product_detail_designer {
     display: inline-block;
     max-width: 12rem;
@@ -796,25 +831,32 @@ nav {
     text-decoration: none;
     transition: 0.3s;
 }
+
 .product_detail_designer:hover, .product_detail_designer:focus {
     color: #4B86DC;
 }
+
 .product_detail_description {
     margin-top: 2rem;
 }
+
 .product_detail_subheading {
     margin-top: 3rem;
     border-bottom: solid 2px;
 }
+
 .product_detail_quantity_container {
     display: block;
     width: 100%;
 }
+
 #quantity_form {}
+
 .quantity_input_form {
     width: 7rem;
     text-align: center;
 }
+
 .qty {
     width: 6.8rem;
     height: 3rem;
@@ -823,9 +865,11 @@ nav {
     border: medium solid #FFF;
     transition: 0.3s;
 }
+
 .qty:hover, .qty:focus {
     border: medium solid #4B86DC;
 }
+
 input.qty_button {
     width: 3rem;
     height: 3rem;
@@ -837,21 +881,23 @@ input.qty_button {
     color: #FFF;
     transition: 0.3s;
 }
+
 input.qty_button:hover, input.qty_button:focus {
     background-color: #4B86DC;
     border: medium solid #4B86DC;
     color: #FFF;
     cursor: pointer;
 }
+
 input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+
 @media screen and (max-width: 700px) {
     .qty {
         width: 57%;
     }
-
     input.qty_button {
         width: 20%;
     }
@@ -860,18 +906,22 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 #add_to_cart {
     display: block;
 }
+
 .product_more {
     padding-top: 5rem;
 }
+
 .product_more_heading {
     font-size: 2rem;
     text-align: center;
     max-width: none;
 }
 
+
 /*.product_more_arrow {
   width: 5%;
 }*/
+
 .product_rating {
     display: inline-block;
     text-align: center;
@@ -881,39 +931,46 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     padding: 0;
     border-bottom: solid 2px #FF5B41;
 }
+
 @media screen and (max-width: 700px) {
     .quantity_input_form {
         width: 100%;
     }
 }
+
 .product_detail_purchase_container {
     margin-top: 1rem;
     display: inline-block;
 }
+
 @media screen and (max-width: 1000px) {
     .product_detail_image_container {
         width: 100%;
     }
-
     .product_detail_container {
         width: 100%;
     }
 }
 
+
 /* -------------------- RATING -------------------- */
 
+
 /*sourced from https://jsfiddle.net/leaverou/CGP87/*/
+
 .rating {
     float: left;
     margin-right: 2rem;
     margin-bottom: 1rem;
     border: none;
 }
+
 .rating:not(:checked)>input {
     position: absolute;
     top: -9999px;
     clip: rect(0, 0, 0, 0);
 }
+
 .rating:not(:checked)>label {
     float: right;
     width: 2.3rem;
@@ -926,54 +983,67 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     line-height: 1rem;
     color: #FFF;
 }
+
 .rating:not(:checked)>label:before {
     content: '☻  ';
 }
+
 .rating>input:checked~label {
     color: #4B86DC;
 }
+
 .rating:not(:checked)>label:hover, .rating:not(:checked)>label:hover~label {
     color: #FF5B41;
 }
+
 .rating>input:checked+label:hover, .rating>input:checked+label:hover~label, .rating>input:checked~label:hover, .rating>input:checked~label:hover~label, .rating>label:hover~input:checked~label {
     color: #FF5B41;
 }
+
 .rating>label:active {
     position: relative;
     top: 2px;
     left: 2px;
 }
 
+.rating_text {
+  color: #FF5B41;
+  font-weight: bold;
+}
+
+
 /* -------------------- UPDATES -------------------- */
+
 .update_container {
     padding: 2rem;
     padding-top: 0;
 }
+
 .update_title_container {
     padding-bottom: 1rem;
 }
+
 .update_title {
     /* h2 */
-
     display: inline-block;
     margin-right: 2rem;
 }
+
 .update_timestamp {
     /* h3 */
-
     display: inline-block;
     margin-left: 2rem;
     margin-top: 0;
 }
+
 .update_image {
     display: inline-block;
     /*    float: clear;*/
-
     width: 30%;
 }
+
 .update_copy {
     /* p */
-
     display: inline-block;
     vertical-align: top;
     width: 65%;
@@ -983,53 +1053,59 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     margin-top: 0;
     margin-bottom: 0;
 }
+
 .update_hidden {
     display: none;
 }
+
 .update_hidden_copy {}
+
 .update_ellipses {}
+
 .update_show_more {
     color: #FF5B41;
     font-weight: 700;
     font-variant-caps: all-small-caps;
     transition: 0.3s;
 }
+
 .update_show_more:hover, .update_show_more:focus {
     cursor: pointer;
     color: #4B86DC;
 }
+
 .update_container_underline {
     border-bottom: solid 2px #FF5B41;
     padding-top: 2rem;
 }
+
 @media screen and (max-width: 900px) {
     .update_image {
         width: 100%;
     }
-
     .update_copy {
         width: 100%;
         padding-left: 0;
         margin-top: 2rem;
     }
 }
+
 .product_designer_link {
     border: none;
 }
+
 @media screen and (max-width: 700px) {
     .update_title {
         margin-right: 0;
         width: 100%;
         text-align: center;
     }
-
     .update_timestamp {
         /* h3 */
         margin-left: 0;
         width: 100%;
         text-align: center;
     }
-
     .update_copy {
         width: 100%;
         padding-left: 0;
@@ -1037,48 +1113,57 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     }
 }
 
+
 /* CITATIONS */
+
 .citation_container {
     margin: 1rem 12rem;
 }
+
 .citation_list {
     font-size: 1rem;
     margin-bottom: 1.2rem;
 }
 
+
 /* -------------------- FOOTER -------------------- */
+
 footer {
     margin-top: 3rem;
 }
+
 .footer_container {
     background-color: #FF5B41;
     color: #FFF2EE;
     display: block;
     padding: 2rem 5rem;
 }
+
 .footer_top {
     width: 100%;
 }
+
 .footer_top_container {
     vertical-align: top;
     padding: 2rem;
 }
+
 .footer_title {
     margin-bottom: 1.5rem;
     /*FONT STYLE*/
-
     font-weight: bold;
     font-size: 0.7rem;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
 }
+
 .footer_top_text {
     color: #FFF2EE;
     /*FONT STYLE*/
-
     font-size: 0.9rem;
     letter-spacing: 0.05rem;
 }
+
 .footer_input_form {
     width: 100%;
     max-width: 20rem;
@@ -1090,19 +1175,20 @@ footer {
     transition: 0.3s;
     outline: none;
 }
+
 .footer_form_button {
     display: inline-block;
     padding: 0.9rem 0.4rem;
     background-color: #FF5B41;
     border: medium solid #FFF2EE;
     /*FONT STYLING*/
-
     font-size: 1rem;
     color: #FFF2EE;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     transition: 0.3s;
 }
+
 .footer_form_button:hover, .footer_form_button:focus {
     background-color: #4B86DC;
     border: medium solid #4B86DC;
@@ -1110,84 +1196,86 @@ footer {
     cursor: pointer;
     opacity: 1;
 }
+
 .footer_link {
     color: #FFF2EE;
     /*FONT STYLE*/
-
     font-size: 0.9rem;
 }
+
 .footer_bottom {
     margin-top: 1rem;
 }
+
 .footer_copyright {
     list-style-type: none;
     display: inline-block;
     margin: 0 1.3rem;
 }
+
 .footer_copyright_container {
     width: 100%;
     text-align: center;
 }
+
 .footer_link {
     border: none;
 }
+
 .footer_text {
     color: #FFF2EE;
     /*FONT STYLE*/
-
     font-weight: normal;
     font-size: 0.6rem;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
 }
+
 .footer_social {
     width: 100%;
     text-align: center;
     padding: 1rem 0;
 }
+
 .footer_icons {
     display: inline-block;
     width: 1.3rem;
     margin: 0 1.5rem;
 }
+
 @media screen and (max-width: 900px) {
     .footer_container {
         padding: 2rem 4rem;
     }
 }
+
 @media screen and (max-width: 700px) {
     .footer_container {
         padding: 2rem;
         text-align: center;
     }
-
     .footer_top_container {
         padding-bottom: 0.5rem;
     }
-
     footer .small_text_paragraph {
         max-width: 100%;
     }
-
     .footer_input_form {
         width: 100%;
         max-width: 40rem;
         display: block;
         margin-bottom: 1rem;
     }
-
     .footer_form_button {
         width: 100%;
         text-align: center;
         margin-bottom: 2rem;
     }
-
     .footer_copyright {
         list-style-type: none;
         display: block;
         margin: 0 2rem;
     }
-
     .footer_icons {
         display: inline-block;
         width: 1.3rem;
@@ -1195,16 +1283,22 @@ footer {
     }
 }
 
+
 /* -------------------- ABOUT/CONTACT US --------------------  */
+
 #contact {
     padding-top: 5rem;
 }
 
+
 /* -------------------- STYLE GUIDE STUFF --------------------  */
+
 
 /* INTRO SECTION */
 
+
 /* GO TO HEADING FOR ANCHOR LINKS */
+
 .goto_intro {
     margin: 0.5rem 0;
     margin-top: 2rem;
@@ -1212,19 +1306,19 @@ footer {
     background-color: #FFF2EE;
     color: #FF5B41;
     /* FONT STYLING */
-
     font-size: 1rem;
     letter-spacing: 0.15rem;
     text-transform: uppercase;
 }
 
+
 /* CODE */
+
 code {
     display: inline-block;
     width: auto;
     max-width: 50rem;
     /*    background-color: #FFF2EE;*/
-
     padding: 2.5rem;
     border-style: solid;
     border-width: 0.13rem;
@@ -1233,29 +1327,33 @@ code {
     color: #393531;
     /* CODE FONT STYLING */
     /*    font-family: Monaco, monospace;*/
-
     font-size: 0.85rem;
     line-height: 1.3rem;
 }
 
+
 /* ELEMENTS DIVISION */
+
 .rendered {
     display: block;
     margin-bottom: 2rem;
 }
+
 .div_elements {
     display: block;
     vertical-align: top;
     /*    width: 15rem;*/
-
     margin-bottom: 2rem;
 }
 
+
 /* SUBTITLES FOR ELEMENT SECTIONS */
+
 .subtitles {
     margin: auto;
     max-width: 20rem;
 }
+
 .subtitles>h2 {
     width: 100%;
     margin-top: 8rem;
@@ -1264,6 +1362,7 @@ code {
     background-color: #4B86DC;
     color: #FFF;
 }
+
 .styleguide_h3 {
     margin-top: 6rem;
     padding-bottom: 1rem;
@@ -1272,75 +1371,89 @@ code {
     margin-bottom: 2rem;
 }
 
+
 /* BRAND DIVISION */
+
 .div_brand {
     display: inline-block;
     vertical-align: top;
     margin-bottom: 4rem;
 }
+
 .div_brand>h4 {
     width: 15rem;
 }
 
+
 /* TYPOGRAPHY */
+
 .type_brand {
     margin: 0.3rem 0rem;
     /* FONT STYLING */
-
     font-size: 1.2rem;
     letter-spacing: 0.15rem;
     line-height: 2rem;
 }
+
 #bold_type_brand {
     font-weight: bold;
 }
 
+
 /* GRID STRUCTURE */
+
 .grid_box {
     background-color: #B1F0DA;
     /* BACKGROUND COLOUR CLIPPING http://stackoverflow.com/questions/14628601/can-i-add-background-color-only-for-padding */
-
     background-clip: content-box;
     padding: 0 1rem;
     height: 12rem;
 }
 
+
 /* COLOR PALETTE CIRCLES */
+
 .circle_palette {
     display: inline-block;
     max-width: 13rem;
     margin-top: 2rem;
     margin-right: 4rem;
 }
+
 .circle_palette>ul>li {
     font-size: 0.8rem;
     letter-spacing: 0.03rem;
 }
+
 #red {
     background-color: #FF5B41;
 }
+
 #grey {
     background-color: #827879;
 }
+
 #blue {
     background-color: #4B86DC;
 }
+
 #pink {
     background-color: #FFF2EE;
     border-style: solid;
     border-color: #ffc0ac;
     border-width: 0.13rem;
 }
+
 .circle {
     height: 6.5rem;
     width: 6.5rem;
     border-radius: 13rem;
     margin-bottom: 1.2rem;
 }
+
 #caption_cit {
     margin: 1rem 0;
     /* FONT STYLING */
-
     font-size: 0.9rem;
     font-style: italic;
     text-transform: capitalize;
