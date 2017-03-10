@@ -420,10 +420,11 @@ li {
 @media screen and (max-width: 1000px) {
     .cart_value {
         font-size: 1.1rem;
-        line-height: 1.2rem;
+        line-height: 1.3rem;
         max-width: 8rem;
         font-size: 1.4rem;
     }
+
     .cart_subtotal {
         max-width: none;
         font-size: 1.3rem;
