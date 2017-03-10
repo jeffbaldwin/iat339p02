@@ -67,6 +67,24 @@
     .col-1of4 {
         width: 100%
     }
+
+    .col-7of20 {
+      width: 25%;
+    }
+
+    .col-3of20 {
+      width: 25%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .col-7of20 {
+        width: 100%;
+        display: block;
+    }
+    .col-3of20 {
+        width: 33%;
+    }
 }
 
 .grid:after {
