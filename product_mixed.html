@@ -27,12 +27,12 @@
         <ul id="nav_button" class="nav_ul nav_hidden">
             <li class="button_nav"><a id="nav_toggle">Nav</a></li>
         </ul>
-        
+
         <ul id="nav_items" class="nav_ul nav_hidden">
             <li class="button_nav"><a href="index.html">Pins</a></li>
             <li class="button_nav"><a href="about.html">About</a></li>
             <li class="button_nav"><a href="updates.html">Blog</a></li>
-            <li class="button_nav"><a href="cart.html">Cart</a></li>
+            <li class="button_nav"><a href="purchase.html">Cart</a></li>
         </ul>
     </nav>
 
@@ -74,14 +74,14 @@
                 <h3 class="product_detail_subheading">Purchase</h3>
                 
                 <!-- Code from http://jsfiddle.net/laelitenetwork/puJ6G/ -->
-                
+
                 <form id='quantity_form' method='POST' action='#'>
                     <label for="quantity" class="label_form">Quantity:</label>
-                    
+
                     <input type='button' value='-' class='qty_button qtyminus' field='quantity' />
                     <input type='number' name='quantity' value='0' class='qty' />
                     <input type='button' value='+' class='qty_button qtyplus' field='quantity' />
-                    
+
                     <button type="submit" class="form_button submit_button add_to_cart">Add to Cart</button>
                 </form>
                 
