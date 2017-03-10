@@ -170,7 +170,7 @@ $("document").ready(function($) {
     
     $('#cart_nav_button').click(function() {
         console.log('click');
-        $('#cart').removeClass('modal_hidden');
+        $('#cart_modal').removeClass('modal_hidden');
     });
     
     // When the user clicks on 'add to cart,' open the modal
