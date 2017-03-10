@@ -522,6 +522,22 @@ li {
     vertical-align: top;
 }
 
+    
+@media screen and (max-width: 700px) {
+    .cart_review_product_column {
+        display: block;
+        width: 100%;  
+    }
+    .cart_review_quantity_column {
+        width: 49%; 
+        text-align: center;
+    }
+    .cart_review_price_column {
+        width: 49%; 
+        text-align: center;
+    }
+}
+
 .total {
     font-size: 1.5rem;
     font-weight: 700;
