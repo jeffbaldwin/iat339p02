@@ -17,89 +17,103 @@
 </head>
 
 <body>
-    <img id="logo" src="../img/Logo.svg" alt="Logo of I'm Sorry, So Sorry">
+<!--    <img id="logo" src="../img/Logo.svg" alt="Logo of I'm Sorry, So Sorry">-->
 
     <!-- NAV -->
     <nav id="nav">
-        <img id="logo_small" src="../img/Logo_white.svg" alt="Sensitive Pins Logo">
+        <img id="logo_small" class="nav_img" src="../img/Logo_white.svg" alt="Sensitive Pins Logo">
 
-        <ul class="nav_ul">
-          <li class="button_nav"><a href="../index.html">Pins</a></li>
-          <li class="button_nav"><a href="../about.html">About</a></li>
-          <li class="button_nav"><a href="../updates.html">Blog</a></li>
-          <li class="button_nav"><a href="../purchase.html">Cart</a></li>
+        <ul id="nav_button" class="nav_ul nav_hidden">
+            <li class="button_nav"><a id="nav_toggle">Nav</a></li>
+        </ul>
+
+        <ul id="nav_items" class="nav_ul nav_hidden">
+            <li class="button_nav"><a href="../index.html">Pins</a></li>
+            <li class="button_nav"><a href="../about.html">About</a></li>
+            <li class="button_nav"><a href="../updates.html">Blog</a></li>
+            <li class="button_nav"><a>Cart</a></li>
         </ul>
     </nav>
+    
+    <div class="content_container">
 
-    <section class="citation_container">
-        <h1>Citations</h1>
+        <div class="inner_content_container">
+            
+            <h1>Citations</h1>
 
-        <!-- FONT CITATION FOR CIRCULAR -->
-        <h2>Font</h2>
-        <ul>
-            <li class="citation_list">
-                Brunner, Laurenz. Designer. 20109. Circular [Font]. Retrieved from: <br>
-                <a class="text_link" href="https://lineto.com/The+Fonts/All+Fonts/Circular/">https://lineto.com/The+Fonts/All+Fonts/Circular/</a>
-            </li>
-        </ul>
+            <!-- FONT CITATION FOR CIRCULAR -->
+            <section>
+                <h2>Font</h2>
+                <ul>
+                    <li class="citation_list">
+                        Brunner, Laurenz. Designer. 20109. Circular [Font]. Retrieved from: <br>
+                        <a class="text_link" href="https://lineto.com/The+Fonts/All+Fonts/Circular/">https://lineto.com/The+Fonts/All+Fonts/Circular/</a>
+                    </li>
+                </ul>
+            </section>
 
 
-        <!-- IMAGE CITATION -->
-        <h2>Images</h2>
-        <ul>
-            <li class="citation_list">
-                Free, A. (Designer). (2016) Best Amigos (Not) Pin Product Image [Image] Retrieved from: <br>
-                <a class="text_link" href="http://www.urbanoutfitters.com/urban/catalog/productdetail.jsp?id=41105974&category=W-ACC-PATCHPINS">
-                    http://www.urbanoutfitters.com/urban/catalog/productdetail.jsp?id=41105974&category=W-ACC-PATCHPINS</a>
-            </li>
+            <!-- IMAGE CITATION -->
+            <section>
+                <h2>Images</h2>
+                <ul>
+                    <li class="citation_list">
+                        Free, A. (Designer). (2016) Best Amigos (Not) Pin Product Image [Image] Retrieved from: <br>
+                        <a class="text_link" href="http://www.urbanoutfitters.com/urban/catalog/productdetail.jsp?id=41105974&category=W-ACC-PATCHPINS">
+                            http://www.urbanoutfitters.com/urban/catalog/productdetail.jsp?id=41105974&category=W-ACC-PATCHPINS</a>
+                    </li>
 
-            <li class="citation_list">
-                Bassen, T. (Artist). (2016) Erase You Pin Product Image [Image] Retrieved from: <br>
-                <a class="text_link" href="https://www.shoptuesday.com/collections/pins/products/erase-you-pin">
-                    https://www.shoptuesday.com/collections/pins/products/erase-you-pin</a>
-            </li>
+                    <li class="citation_list">
+                        Bassen, T. (Artist). (2016) Erase You Pin Product Image [Image] Retrieved from: <br>
+                        <a class="text_link" href="https://www.shoptuesday.com/collections/pins/products/erase-you-pin">
+                            https://www.shoptuesday.com/collections/pins/products/erase-you-pin</a>
+                    </li>
 
-            <li class="citation_list">
-              Bassen, T. (Artist). (2016) Mixed Emotions Club Pin Product Image [Image] Retrieved from: <br> <a class="text_link" href="https://www.shoptuesday.com/collections/pins/products/mixed-emotions-club-pin">https://www.shoptuesday.com/collections/pins/products/mixed-emotions-club-pin</a>
-            </li>
+                    <li class="citation_list">
+                      Bassen, T. (Artist). (2016) Mixed Emotions Club Pin Product Image [Image] Retrieved from: <br> <a class="text_link" href="https://www.shoptuesday.com/collections/pins/products/mixed-emotions-club-pin">https://www.shoptuesday.com/collections/pins/products/mixed-emotions-club-pin</a>
+                    </li>
 
-            <li class="citation_list">
-              Bassen, T. (Artist). (2016) No Time For Your Bullshit Pin Product Image [Image] Retrieved from: <br> <a class="text_link" href="https://shoptuesday.com/collections/pins/products/take-a-stab-pin">https://shoptuesday.com/collections/pins/products/take-a-stab-pin</a>
-            </li>
+                    <li class="citation_list">
+                      Bassen, T. (Artist). (2016) No Time For Your Bullshit Pin Product Image [Image] Retrieved from: <br> <a class="text_link" href="https://shoptuesday.com/collections/pins/products/take-a-stab-pin">https://shoptuesday.com/collections/pins/products/take-a-stab-pin</a>
+                    </li>
 
-            <li class="citation_list">
-              Kurtz, A. (Artist). (2016) Feelings Pin Product Image [Image] Retrieved from: <br> <a class="text_link" href="http://shop.adamjk.com/product/bottled-up-feelings-enamel-pin">http://shop.adamjk.com/product/bottled-up-feelings-enamel-pin</a>
-            </li>
+                    <li class="citation_list">
+                      Kurtz, A. (Artist). (2016) Feelings Pin Product Image [Image] Retrieved from: <br> <a class="text_link" href="http://shop.adamjk.com/product/bottled-up-feelings-enamel-pin">http://shop.adamjk.com/product/bottled-up-feelings-enamel-pin</a>
+                    </li>
 
-            <li class="citation_list">
-              Simpleicon (Designer). (2014) Facebook Icon [Icons] Retrieved from: <br> <a class="text_link" href="http://www.flaticon.com/free-icon/facebook-letter-logo_34304">http://www.flaticon.com/free-icon/facebook-letter-logo_34304</a>
-            </li>
+                    <li class="citation_list">
+                      Simpleicon (Designer). (2014) Facebook Icon [Icons] Retrieved from: <br> <a class="text_link" href="http://www.flaticon.com/free-icon/facebook-letter-logo_34304">http://www.flaticon.com/free-icon/facebook-letter-logo_34304</a>
+                    </li>
 
-            <li class="citation_list">
-              Simpleicon (Designer). (2014) Instagram Icon [Icons] Retrieved from: <br> <a class="text_link" href="http://www.flaticon.com/free-icon/instagram-logo_61164">http://www.flaticon.com/free-icon/instagram-logo_61164</a>
-            </li>
+                    <li class="citation_list">
+                      Simpleicon (Designer). (2014) Instagram Icon [Icons] Retrieved from: <br> <a class="text_link" href="http://www.flaticon.com/free-icon/instagram-logo_61164">http://www.flaticon.com/free-icon/instagram-logo_61164</a>
+                    </li>
 
-            <li class="citation_list">
-              Simpleicon (Designer). (2014) Twitter Icon [Icons] Retrieved from: <br> <a class="text_link" href="http://www.flaticon.com/free-icon/twitter-logo_34238">http://www.flaticon.com/free-icon/twitter-logo_34238</a>
-            </li>
+                    <li class="citation_list">
+                      Simpleicon (Designer). (2014) Twitter Icon [Icons] Retrieved from: <br> <a class="text_link" href="http://www.flaticon.com/free-icon/twitter-logo_34238">http://www.flaticon.com/free-icon/twitter-logo_34238</a>
+                    </li>
 
-            <li class="citation_list">
-              Simpleicon (Designer). (2014) Tumblr Icon [Icons] Retrieved from: <br> <a class="text_link" href="http://www.flaticon.com/free-icon/tumblr-letter-logo_34316">http://www.flaticon.com/free-icon/tumblr-letter-logo_34316</a>
-            </li>
+                    <li class="citation_list">
+                      Simpleicon (Designer). (2014) Tumblr Icon [Icons] Retrieved from: <br> <a class="text_link" href="http://www.flaticon.com/free-icon/tumblr-letter-logo_34316">http://www.flaticon.com/free-icon/tumblr-letter-logo_34316</a>
+                    </li>
 
-            <li class="citation_list">
-              Stay Home Club (Designer). (2016) Sad Songs Pin Product Image [Image] Retrieved from: <a class="text_link" href="http://www.urbanoutfitters.com/urban/catalog/productdetail.jsp?id=39455068&category=W-ACC-PATCHPINS">http://www.urbanoutfitters.com/urban/catalog/productdetail.jsp?id=39455068&category=W-ACC-PATCHPINS</a>
-            </li>
+                    <li class="citation_list">
+                      Stay Home Club (Designer). (2016) Sad Songs Pin Product Image [Image] Retrieved from: <a class="text_link" href="http://www.urbanoutfitters.com/urban/catalog/productdetail.jsp?id=39455068&category=W-ACC-PATCHPINS">http://www.urbanoutfitters.com/urban/catalog/productdetail.jsp?id=39455068&category=W-ACC-PATCHPINS</a>
+                    </li>
 
-            <li class="citation_list">
-              Swec, J. (Designer). (2016) Sorry Not Sorry Pin Product Image [Image] Retrieved from: <br> <a class="text_link" href="https://www.valleycruisepress.com/collections/pins/products/sorry-not-sorry-pin-by-joe-swec">https://www.valleycruisepress.com/collections/pins/products/sorry-not-sorry-pin-by-joe-swec</a>
-            </li>
+                    <li class="citation_list">
+                      Swec, J. (Designer). (2016) Sorry Not Sorry Pin Product Image [Image] Retrieved from: <br> <a class="text_link" href="https://www.valleycruisepress.com/collections/pins/products/sorry-not-sorry-pin-by-joe-swec">https://www.valleycruisepress.com/collections/pins/products/sorry-not-sorry-pin-by-joe-swec</a>
+                    </li>
 
-            <li class="citation_list">
-              Swec, J. (Designer). (2016) Ugh Pin Product Image [Image] Retrieved from: <br> <a class="text_link" href="https://www.valleycruisepress.com/collections/pins/products/ugh-pin">https://www.valleycruisepress.com/collections/pins/products/ugh-pin</a>
-            </li>
-        </ul>
-    </section>
+                    <li class="citation_list">
+                      Swec, J. (Designer). (2016) Ugh Pin Product Image [Image] Retrieved from: <br> <a class="text_link" href="https://www.valleycruisepress.com/collections/pins/products/ugh-pin">https://www.valleycruisepress.com/collections/pins/products/ugh-pin</a>
+                    </li>
+                </ul>
+            
+            </section>
+        </div>
+        
+    </div>
 
     <!-- FOOTER -->
     <footer class="footer_container">
