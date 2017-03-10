@@ -43,9 +43,15 @@
                 <img class="product_detail_image" src="img/pin_mixed.jpg" alt="Mixed Emotions Pin">
             </div>
             <div class="product_rating">
-                <div class="product_rating_stars">
-                    <span>○</span><span>○</span><span>○</span><span>○</span><span>○</span>
-                </div>
+                <fieldset class="rating">
+                    <legend>Rate It:</legend>
+                    <input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="LOVE IT">5 stars</label>
+                    <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="IT'S PRETTY COOL">4 stars</label>
+                    <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="YEA, IT'S ALRIGHT">3 stars</label>
+                    <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="NOT THAT CUTE">2 stars</label>
+                    <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="DOESN'T WORK FOR ME">1 star</label>
+                </fieldset>
+
                 <p>62 Customer Reviews</p>
             </div>
         </section>
@@ -72,7 +78,7 @@
                 </p>
 
                 <h3 class="product_detail_subheading">Purchase</h3>
-                
+
                 <!-- Code from http://jsfiddle.net/laelitenetwork/puJ6G/ -->
 
                 <form id='quantity_form' method='POST' action='#'>
@@ -84,7 +90,7 @@
 
                     <button type="submit" class="form_button submit_button add_to_cart">Add to Cart</button>
                 </form>
-                
+
             </div>
         </section>
     </section>
@@ -92,21 +98,20 @@
     <!-- MORE PRODUCTS -->
     <section class="content_container product_more">
 
-        <h1 class="product_more_heading">More Products</h1>
-
-        <!-- <img class="product_more_arrow" src="img/arrow_left.svg" alt="More Products Left Arrow"> -->
+        <h1 class="product_more_heading">You May Also Like</h1>
 
         <div class="product_listing">
             <a href="product_sad.html">
                 <div class="product_listing_clickable">
                     <div class="product_listing_image_container">
-                        <img class="product_listing_image" src="img/pin_sad.jpg" alt="Sad Songs Pin Product Image">
+                        <img class="product_listing_image" src="img/pin_mixedalt.jpg" alt="Mixed Emotions Club  (Alternative) Pin Product Image">
                     </div>
+
                     <div class="product_listing_info">
-                        <h1 class="product_listing_name">Sad Songs</h1>
+                        <h1 class="product_listing_name">Mixed Emotions Club (Alternative)</h1>
                         <div class="product_listing_subinfo">
-                            <h1 class="product_listing_price">$14</h1>
-                            <h2 class="product_listing_designer">Designed by<br>Stay Home Club</h2>
+                            <h1 class="product_listing_price">$25</h1>
+                            <h2 class="product_listing_designer">Designed by<br>Tuesday Bassen</h2>
                         </div>
                     </div>
                 </div>
@@ -117,13 +122,14 @@
             <a href="product_erase.html">
                 <div class="product_listing_clickable">
                     <div class="product_listing_image_container">
-                        <img class="product_listing_image" src="img/pin_erase.jpeg" alt="Erase You Pin Product Image">
+                        <img class="product_listing_image" src="img/pin_sorry.jpg" alt="Sorry Not Sorry Pin Product Image">
                     </div>
+
                     <div class="product_listing_info">
-                        <h1 class="product_listing_name">Erase You</h1>
+                        <h1 class="product_listing_name">Sorry Not Sorry</h1>
                         <div class="product_listing_subinfo">
-                            <h1 class="product_listing_price">$15</h1>
-                            <h2 class="product_listing_designer">Designed by<br>Tuesday Bassen</h2>
+                            <h1 class="product_listing_price">$12</h1>
+                            <h2 class="product_listing_designer">Designed by<br>Valley Cruise Press</h2>
                         </div>
                     </div>
                 </div>
@@ -134,75 +140,140 @@
             <a href="product_mixed.html">
                 <div class="product_listing_clickable">
                     <div class="product_listing_image_container">
-                        <img class="product_listing_image" src="img/pin_mixed.jpg" alt="Mixed Emotions Club Pin Product Image">
+                        <img class="product_listing_image" src="img/pin_ugh.jpg" alt="Ugh Pin Product Image">
                     </div>
+
                     <div class="product_listing_info">
-                        <h1 class="product_listing_name">Mixed Emotions Club</h1>
+                        <h1 class="product_listing_name">Ugh</h1>
                         <div class="product_listing_subinfo">
-                            <h1 class="product_listing_price">$25</h1>
-                            <h2 class="product_listing_designer">Designed by<br>Tuesday Bassen</h2>
+                            <h1 class="product_listing_price">$12</h1>
+                            <h2 class="product_listing_designer">Designed by<br>Valley Cruise Press</h2>
                         </div>
                     </div>
+
                 </div>
             </a>
         </div>
-
-        <!-- <img class="product_more_arrow" src="img/arrow_right.svg" alt="More Products Right Arrow"> -->
     </section>
 
-    <footer class="footer_container">
-        <div class="footer_top grid">
-            <div class="footer_top_container col-1of4">
-                <h1 class="footer_title">More About Us</h1>
-                <ul>
-                    <li><a class="text_link footer_link" href="about.html#contact">Contact Us</a></li>
-                    <li><a class="text_link footer_link" href="#">Sensitive Charity</a></li>
-                    <li><a class="text_link footer_link" href="#">Mixed Emotions Club</a></li>
-                </ul>
+    <!-- CART POP-UP -->
+    <div class="cart">
+        <section class="cart_content">
+            <div class="cart_header">
+                <h1 class="cart_title">Cart</h1>
+                <span class="text_link cart_close">Close</span>
             </div>
 
-            <div class="footer_top_container col-1of4">
-                <h1 class="footer_title">Customer Service</h1>
-                <ul>
-                    <li><a class="text_link footer_link" href="#">Return Policy</a></li>
-                    <li><a class="text_link footer_link" href="#">Shipping</a></li>
-                    <li><a class="text_link footer_link" href="#">Privacy Policy</a></li>
-                    <li><a class="text_link footer_link" href="#">Terms of Service</a></li>
-                </ul>
+            <div class="cart_item_container grid">
+                <div class="cart_item_image col-1of5">
+                    <img class="cart_image" src="img/pin_erase.jpeg" alt="Mixed Emotions Pin">
+                </div>
+
+                <div class="cart_item_description col-7of20">
+                    <p class="cart_text">Erase You Pin</p>
+                </div>
+
+                <div class="cart_item_value col-3of20">
+                    <p class="cart_text cart_value">$15</p>
+                </div>
+
+                <div class="cart_item_value col-3of20">
+                    <p class="cart_text cart_value">1 x</p>
+                </div>
+
+                <div class="cart_item_value col-3of20">
+                    <p class="cart_text cart_value">$15</p>
+                </div>
             </div>
 
-            <div class="footer_top_container col-1of2">
-                <h1 class="footer_title">Newsletter</h1>
-                <p class="small_text_paragraph footer_top_text">No spam, just sensitive content:</p>
-                <input id="form--email" class="input_form footer_input_form" type="email" placeholder="Email">
-                <button type="submit" class="footer_form_button">Subscribe</button>
+            <div class="cart_item_container grid">
+                <div class="cart_item_image col-1of5">
+                    <img class="cart_image" src="img/pin_mixed.jpg" alt="Mixed Emotions Pin">
+                </div>
+
+                <div class="cart_item_description col-7of20">
+                    <p class="cart_text">Mixed Emotions Club Pin</p>
+                </div>
+
+                <div class="cart_item_value col-3of20">
+                    <p class="cart_text cart_value">$25</p>
+                </div>
+
+                <div class="cart_item_value col-3of20">
+                    <p class="cart_text cart_value">2 x</p>
+                </div>
+
+                <div class="cart_item_value col-3of20">
+                    <p class="cart_text cart_value">$50</p>
+                </div>
             </div>
+
+            <div class="grid">
+                <div class="cart_footer col-1of2">
+                    <h1 class="cart_subtotal">Subtotal $65</h1>
+                </div>
+                <div class="cart_footer cart_button col-1of2">
+                    <a class="cart_subtotal" href="purchase.html">
+                Checkout
+              </a>
+                </div>
+
+        </section>
         </div>
 
-        <div class="footer_bottom">
-            <ul class="footer_copyright_container">
-                <li class="footer_copyright">
-                    <p class="footer_text">© Sensitive Pins 2017</p>
-                </li>
-                <li class="footer_copyright"><a class="text_link footer_link footer_text" href="pages/styleguide.html">Style Guide</a></li>
-                <li class="footer_copyright"><a class="text_link footer_link footer_text" href="pages/citations.html">Citations</a></li>
-            </ul>
-            <div class="footer_social">
-                <div class="footer_icons">
-                    <a href="#"><img src="img/icons/facebook.svg" alt="Facebook Icon"></a>
+        <footer class="footer_container">
+            <div class="footer_top grid">
+                <div class="footer_top_container col-1of4">
+                    <h1 class="footer_title">More About Us</h1>
+                    <ul>
+                        <li><a class="text_link footer_link" href="about.html#contact">Contact Us</a></li>
+                        <li><a class="text_link footer_link" href="#">Sensitive Charity</a></li>
+                        <li><a class="text_link footer_link" href="#">Mixed Emotions Club</a></li>
+                    </ul>
                 </div>
-                <div class="footer_icons">
-                    <a href="#"><img src="img/icons/twitter.svg" alt="Twitter Icon"></a>
+
+                <div class="footer_top_container col-1of4">
+                    <h1 class="footer_title">Customer Service</h1>
+                    <ul>
+                        <li><a class="text_link footer_link" href="#">Return Policy</a></li>
+                        <li><a class="text_link footer_link" href="#">Shipping</a></li>
+                        <li><a class="text_link footer_link" href="#">Privacy Policy</a></li>
+                        <li><a class="text_link footer_link" href="#">Terms of Service</a></li>
+                    </ul>
                 </div>
-                <div class="footer_icons">
-                    <a href="#"><img src="img/icons/instagram.svg" alt="Instagram Icon"></a>
-                </div>
-                <div class="footer_icons">
-                    <a href="#"><img src="img/icons/tumblr.svg" alt="Tumblr Icon"></a>
+
+                <div class="footer_top_container col-1of2">
+                    <h1 class="footer_title">Newsletter</h1>
+                    <p class="small_text_paragraph footer_top_text">No spam, just sensitive content:</p>
+                    <input id="form--email" class="input_form footer_input_form" type="email" placeholder="Email">
+                    <button type="submit" class="footer_form_button">Subscribe</button>
                 </div>
             </div>
-        </div>
-    </footer>
+
+            <div class="footer_bottom">
+                <ul class="footer_copyright_container">
+                    <li class="footer_copyright">
+                        <p class="footer_text">© Sensitive Pins 2017</p>
+                    </li>
+                    <li class="footer_copyright"><a class="text_link footer_link footer_text" href="pages/styleguide.html">Style Guide</a></li>
+                    <li class="footer_copyright"><a class="text_link footer_link footer_text" href="pages/citations.html">Citations</a></li>
+                </ul>
+                <div class="footer_social">
+                    <div class="footer_icons">
+                        <a href="#"><img src="img/icons/facebook.svg" alt="Facebook Icon"></a>
+                    </div>
+                    <div class="footer_icons">
+                        <a href="#"><img src="img/icons/twitter.svg" alt="Twitter Icon"></a>
+                    </div>
+                    <div class="footer_icons">
+                        <a href="#"><img src="img/icons/instagram.svg" alt="Instagram Icon"></a>
+                    </div>
+                    <div class="footer_icons">
+                        <a href="#"><img src="img/icons/tumblr.svg" alt="Tumblr Icon"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
 </body>
 
 </html>
