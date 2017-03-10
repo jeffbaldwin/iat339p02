@@ -395,6 +395,8 @@ li {
 
 .cart_value {
     font-size: 2rem;
+    line-height: 2.2rem;
+    padding: 0 0.6rem;
 }
 
 .cart_footer {
@@ -416,12 +418,10 @@ li {
 }
 
 @media screen and (max-width: 1000px) {
-    .cart_text {
+    .cart_value {
         font-size: 1.1rem;
         line-height: 1.2rem;
         max-width: 8rem;
-    }
-    .cart_value {
         font-size: 1.4rem;
     }
     .cart_subtotal {
@@ -449,7 +449,7 @@ li {
     .cart_image {
         padding: 0 0 1rem 0;
     }
-    .cart_text {
+    .cart_value {
         text-align: center;
         max-width: none;
     }
