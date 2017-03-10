@@ -548,14 +548,7 @@ li {
 /* -------------------- LOGO -------------------- */
 
 #logo {
-    position: fixed;
-    width: 27rem;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    display: inline-block;
-    z-index: -1;
-    opacity: 0.1;
+    width: 100%;
 }
 
 #logo_small {
@@ -1290,8 +1283,13 @@ footer {
 
 /* -------------------- ABOUT/CONTACT US --------------------  */
 
+#about {
+  display: inline-block;
+}
+
 #contact {
     padding-top: 5rem;
+    display: block;
 }
 
 
@@ -1355,7 +1353,7 @@ code {
 
 .subtitles {
     margin: auto;
-    max-width: 20rem;
+    max-width: 22rem;
 }
 
 .subtitles>h2 {
