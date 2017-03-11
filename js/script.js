@@ -14,14 +14,16 @@ $("document").ready(function($) {
 
     var nav = $('#nav');
 
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > 100) {
-            nav.addClass("fix_nav");
-            console.log("scroll");
-        } else {
-            nav.removeClass("fix_nav");
-        }
-    });
+    if ($(window).width > 700) {
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 100) {
+                nav.addClass("fix_nav");
+                console.log("scroll");
+            } else {
+                nav.removeClass("fix_nav");
+            }
+        });
+    }
 
     /* -------------------- */
 
