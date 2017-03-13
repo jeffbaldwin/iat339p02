@@ -388,7 +388,7 @@ li {
 
 .cart_text {
     font-size: 1.2rem;
-/*    max-width: 10rem;*/
+    /*    max-width: 10rem;*/
     line-height: 1.8rem;
     color: #FF5B41;
 }
@@ -424,7 +424,6 @@ li {
         max-width: 8rem;
         font-size: 1.4rem;
     }
-
     .cart_subtotal {
         max-width: none;
         font-size: 1.3rem;
@@ -454,11 +453,11 @@ li {
         text-align: center;
         max-width: none;
     }
-
     .cart_subtotal, .cart_button {
         padding: 2rem 0;
     }
 }
+
 
 /*.cart_image_column {
     display: inline-block;
@@ -581,16 +580,16 @@ li {
 }
 
 .cart_label {
-  font-size: 0.9rem;
-  font-weight: bold;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
 
 .cart_sub {
-  opacity: 0.5;
-  font-size: 1.2rem;
-  font-weight: normal;
-  margin: 0;
-  margin-top: 0.3rem;
+    opacity: 0.5;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 0;
+    margin-top: 0.3rem;
 }
 
 
@@ -684,7 +683,7 @@ nav {
         border-width: 4px;
     }
     #nav_button {
-/*        display: block;*/
+        /*        display: block;*/
     }
 }
 
@@ -775,12 +774,13 @@ nav {
 }
 
 .product_listing_name {
+    display: inline-block;
+    text-align: left;
     font-size: 1.8rem;
     line-height: 2.2rem;
     margin: 0;
     margin-top: 0.8rem;
     margin-bottom: 1rem;
-    max-width: 15rem;
     color: #FF5B41;
     transition: 0.3s;
 }
@@ -791,7 +791,7 @@ nav {
 
 .product_listing_price {
     font-size: 2.2rem;
-    /*1.8rem*/
+    letter-spacing: -0.05rem;
     line-height: 2.2rem;
     margin-top: 0.8rem;
     margin-bottom: 0.2rem;
@@ -802,8 +802,8 @@ nav {
 
 .product_listing_designer {
     max-width: 10rem;
-    margin-top: 0;
-    margin-bottom: 1.3rem;
+    margin: 0 0 1.3rem 0;
+    display: inline-block;
     vertical-align: baseline;
     padding-left: 0.5rem;
     /* FONT STYLING */
@@ -1055,8 +1055,8 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 }
 
 .rating_text {
-  color: #FF5B41;
-  font-weight: bold;
+    color: #FF5B41;
+    font-weight: bold;
 }
 
 
@@ -1335,7 +1335,7 @@ footer {
 /* -------------------- ABOUT/CONTACT US --------------------  */
 
 #about {
-  display: inline-block;
+    display: inline-block;
 }
 
 #contact {
@@ -1514,18 +1514,17 @@ code {
 }
 
 .grid_text {
-  padding-left: 1rem;
+    padding-left: 1rem;
 }
 
 #grid_body {
-  position: absolute;
-  padding-left: 1.3rem;
+    position: absolute;
+    padding-left: 1.3rem;
 }
 
 #grid_content {
-  position: relative;
+    position: relative;
 }
-
 
 .product_listing.styleguide {
     width: 32.9%;
